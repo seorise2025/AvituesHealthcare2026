@@ -7,51 +7,39 @@ schema: faq
 breadcrumb: Home=/ > Compliance
 -->
 
-<section class="hero hero--page">
-  <div class="container split">
-    <div>
-      <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Compliance</li></ol></nav>
-      <span class="eyebrow">Compliance and vetting</span>
-      <h1 data-claim="vetting" data-fallback="Our registrations and policies.">How we check the people we send.</h1>
-      <p class="lead">You stay responsible for everyone working in your service. <span data-claim="vetting">This page sets out how our workers are checked.</span> Below are the registrations and published policies behind our business.</p>
-      <div class="btn-row">
-        <a class="btn btn--primary btn--lg" href="/request-staff/">Request Staff</a>
-        <a class="btn btn--outline btn--lg" href="#company">Company details</a>
-      </div>
-    </div>
-    <div class="card" data-claim="compliance-files">
-      <h2 class="h3">Ask for a worker's file</h2>
-      <p>You can request a worker's compliance details before or after a shift.</p>
-      <a class="btn btn--teal" href="/contact-us/">{{icon:mail}} Request a file</a>
-    </div>
+<section class="page-head">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Compliance</li></ol></nav>
+    <h1 data-claim="vetting" data-fallback="Registrations and policies">How we check the people we send</h1>
+    <p class="intro">You stay responsible for everyone who works in your service, so you should be able to see what checks were done. <span data-claim="vetting">This page sets out our vetting, </span>our company registrations and the policies we publish.</p>
   </div>
 </section>
 
-<section class="section section--bg" data-claim="vetting">
+<section class="section" data-claim="vetting">
   <div class="container">
-    <div class="section-head"><span class="eyebrow">Our vetting process</span><h2>Checks completed before anyone works.</h2></div>
-    <div class="table-wrap">
+    <h2>Checks done before anyone works a shift</h2>
+    <div class="table-wrap mt-5">
       <table class="data">
         <thead><tr><th scope="col">Check</th><th scope="col">What it involves</th></tr></thead>
         <tbody>
-          <tr><td><strong>Interview</strong></td><td>Experience, values and how the person would handle real situations.</td></tr>
-          <tr><td><strong>Right to work</strong></td><td>Checked using the Home Office online service, a certified digital identity provider, or original documents, as the Home Office employer guide allows.</td></tr>
-          <tr><td><strong>Criminal record check</strong></td><td>Enhanced DBS with the adults' barred list for work in England and Wales. PVG scheme membership for regulated roles in Scotland.</td></tr>
-          <tr><td><strong>References</strong></td><td>Two references, including one from a care or clinical role.</td></tr>
-          <tr><td><strong>Training</strong></td><td>Mandatory training checked for dates, with refreshers tracked.</td></tr>
-          <tr><td><strong>Fitness to work</strong></td><td>A health declaration and immunisation records where the setting requires them.</td></tr>
-          <tr><td><strong>Professional registration</strong></td><td>NMC register checked for every nurse, including any conditions. Social Care Wales registration for social care workers in Wales.</td></tr>
+          <tr><th scope="row">Interview</th><td>Experience, values, and how the person would handle real situations.</td></tr>
+          <tr><th scope="row">Right to work</th><td>Using the Home Office online service, a certified digital identity provider, or original documents, as the Home Office employer guide allows.</td></tr>
+          <tr><th scope="row">Criminal record check</th><td>England and Wales: Enhanced DBS with the adults' barred list. Scotland: PVG scheme membership. Northern Ireland: Enhanced AccessNI check.</td></tr>
+          <tr><th scope="row">References</th><td>Two, including one from a care or clinical role.</td></tr>
+          <tr><th scope="row">Training</th><td>Mandatory training checked for dates, with refreshers tracked.</td></tr>
+          <tr><th scope="row">Fitness to work</th><td>A health declaration, plus immunisation records where the setting needs them.</td></tr>
+          <tr><th scope="row">Registration</th><td>NMC register checked for every nurse, including conditions. Social Care Wales and NISCC registration for social care workers in Wales and Northern Ireland.</td></tr>
         </tbody>
       </table>
     </div>
+    <p class="mt-5" data-claim="compliance-files">You can ask for a worker's compliance details before or after a shift. <a href="/contact-us/">Contact us</a> and choose "Compliance file".</p>
   </div>
 </section>
 
-<section class="section" id="company">
-  <div class="container split">
+<section class="section section--bg">
+  <div class="container split split--even">
     <div>
-      <span class="eyebrow">Company details</span>
-      <h2>Who we are.</h2>
+      <h2>Company details</h2>
       <div class="table-wrap">
         <table class="data">
           <tbody>
@@ -64,41 +52,31 @@ breadcrumb: Home=/ > Compliance
             <tr data-claim="apsco"><th scope="row">Membership</th><td>APSCo (Association of Professional Staffing Companies)</td></tr>
             <tr data-claim="cyber"><th scope="row">Cyber security</th><td>Cyber Essentials certified</td></tr>
             <tr data-claim="scotland-reg"><th scope="row">Scotland</th><td>Registered with the Care Inspectorate as a nurse agency</td></tr>
+            <tr data-claim="ni-reg"><th scope="row">Northern Ireland</th><td>Registered with RQIA as a nursing agency</td></tr>
           </tbody>
         </table>
       </div>
     </div>
     <div>
-      <span class="eyebrow">Published documents</span>
-      <h2>Policies you can download.</h2>
+      <h2>Published policies</h2>
       <ul class="docs">
-        <li><a href="/files/Modern-Slavery-Aviteus%20Healthcare%20LTD.pdf">{{icon:shield}} Modern slavery statement <span>PDF</span></a></li>
-        <li><a href="/files/PPN-0621-Carbon-Reduction-Plan-Aviteus.pdf">{{icon:leaf}} Carbon reduction plan (signed January 2025) <span>PDF</span></a></li>
-        <li data-claim="cyber"><a href="/files/CyberEssentialsCertificate2025.pdf">{{icon:lock}} Cyber Essentials certificate <span>PDF</span></a></li>
-        <li data-claim="apsco"><a href="/files/APSCo%20UK%20Membership%20Certificate%202024%20final%20-%20Aviteus%20Healthcare.pdf">{{icon:star}} APSCo membership certificate <span>PDF</span></a></li>
+        <li><a href="/files/Modern-Slavery-Aviteus%20Healthcare%20LTD.pdf">{{icon:file}} Modern slavery statement <span>PDF</span></a></li>
+        <li><a href="/files/PPN-0621-Carbon-Reduction-Plan-Aviteus.pdf">{{icon:file}} Carbon reduction plan, signed January 2025 <span>PDF</span></a></li>
+        <li data-claim="cyber"><a href="/files/CyberEssentialsCertificate2025.pdf">{{icon:file}} Cyber Essentials certificate <span>PDF</span></a></li>
+        <li data-claim="apsco"><a href="/files/APSCo%20UK%20Membership%20Certificate%202024%20final%20-%20Aviteus%20Healthcare.pdf">{{icon:file}} APSCo membership certificate <span>PDF</span></a></li>
       </ul>
-      <p class="small muted mt-5">Our carbon reduction plan reports total emissions of 493 tonnes CO2e in 2022 and 348 tonnes in 2024, with a commitment to net zero by 2045.</p>
+      <p class="small muted mt-5">Our carbon reduction plan reports total emissions of 493 tonnes CO2e in 2022 and 348 tonnes in 2024, and commits us to net zero by 2045.</p>
     </div>
   </div>
 </section>
 
-<section class="section section--bg">
-  <div class="container">
-    <div class="section-head"><span class="eyebrow">Questions</span><h2>Compliance questions.</h2></div>
-    <div class="faq">
-      <details><summary>What should I check before booking any agency worker?</summary><div><p>Right to work, a criminal record check at the right level, references, training dates and, for nurses, the NMC register. Our <a href="/resources/checks-before-booking-agency-staff/">checklist for care managers</a> explains each one.</p></div></details>
-      <details data-claim="compliance-files"><summary>Can I see a worker's file before they arrive?</summary><div><p>Yes. Ask us when you book. We share what you need for your records in line with the worker's privacy notice.</p></div></details>
-      <details><summary>Do you charge workers for checks or training?</summary><div><p>Workers are never charged for finding them work. Ask us how DBS fees and training are handled.</p></div></details>
-    </div>
-  </div>
-</section>
-
-<section class="section section--tight">
-  <div class="container">
-    <div class="cta-band">
-      <h2>Questions about our checks?</h2>
-      <p>Call us before you book. We will walk you through them.</p>
-      <div class="btn-row"><a class="btn btn--light btn--lg" href="/request-staff/">Request Staff</a><a class="btn btn--ghost-light btn--lg" href="tel:+442034888172">Call 020 3488 8172</a></div>
+<section class="section">
+  <div class="container narrow">
+    <h2>Compliance questions</h2>
+    <div class="faq mt-5">
+      <details><summary>What should I check before booking any agency worker?</summary><div><p>Right to work, a criminal record check at the right level, references, training dates and, for nurses, the NMC register. Our <a href="/resources/checks-before-booking-agency-staff/">checklist for care managers</a> goes through each one.</p></div></details>
+      <details data-claim="compliance-files"><summary>Can I see a worker's file before they arrive?</summary><div><p>Yes. Ask when you book. We share what you need for your records, in line with the worker's privacy notice.</p></div></details>
+      <details><summary>Do workers pay for their own checks or training?</summary><div><p>Workers are never charged for finding them work. Ask us how DBS fees and training are handled.</p></div></details>
     </div>
   </div>
 </section>

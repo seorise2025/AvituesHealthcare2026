@@ -6,35 +6,38 @@ nav: hire
 breadcrumb: Home=/ > Request staff
 -->
 
-<section class="hero hero--page">
+<section class="page-head">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Request staff</li></ol></nav>
+    <h1>Request staff</h1>
+    <p class="intro">Tell us who you need and when. It takes about two minutes, and someone from our team will be in touch to go through it with you.</p>
+  </div>
+</section>
+
+<section class="section">
   <div class="container layout-side">
     <div>
-      <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Request staff</li></ol></nav>
-      <span class="eyebrow">For care providers</span>
-      <h1>Request staff.</h1>
-      <p class="lead">Tell us who you need and when. It takes about two minutes. We will contact you to confirm the details and what we can cover.</p>
-      <div class="notice mb-5" role="note">
+      <div class="notice notice--info mb-5" role="note">
         {{icon:clock}}
-        <p><strong>Need someone in the next few hours?</strong> Call <a href="tel:+442034888172">020 3488 8172</a>. Phone is faster than this form for urgent cover.</p>
+        <p><strong>Need someone in the next few hours?</strong> Please ring <a href="tel:+442034888172">020 3488 8172</a> instead. A form can wait in an inbox. A phone call can't.</p>
       </div>
       {{form:employer}}
     </div>
-
-    <aside class="side-card" aria-label="Other ways to contact us">
-      <div class="card">
-        <h2 class="h3">Prefer to talk?</h2>
-        <p><span data-claim="h24" data-fallback="Call the team on">The staffing line is answered 24/7 on</span> 020 3488 8172.</p>
-        <a class="btn btn--teal btn--block" href="tel:+442034888172">{{icon:phone}} 020 3488 8172</a>
-        <a class="btn btn--outline btn--block mt-3" href="mailto:info@aviteushealthcare.co.uk">{{icon:mail}} Email us</a>
-        <hr class="divider">
-        <h2 class="h4">What happens next</h2>
-        <ol class="steps steps--stack">
-          <li class="step"><h3>We contact you</h3><p>To check the details and agree terms and rates if you are new.</p></li>
-          <li class="step"><h3>We look for staff</h3><p>People whose experience fits your setting.</p></li>
-          <li class="step"><h3>You know who is coming</h3><p>Or we tell you honestly if we cannot cover it.</p></li>
+    <aside class="side-card" aria-label="Other ways to reach us">
+      <div class="panel">
+        <h2 class="h3">Rather talk to someone?</h2>
+        <p class="small muted" data-claim="h24" data-fallback="Call the staffing line:">The staffing line is answered day and night:</p>
+        <a class="duty__phone" href="tel:+442034888172">020 3488 8172</a>
+        <p class="small"><a href="mailto:info@aviteushealthcare.co.uk">info@aviteushealthcare.co.uk</a></p>
+        <hr>
+        <h2 class="h4">After you send this</h2>
+        <ol class="numbered numbered--compact">
+          <li><p>We contact you to check the details, and agree terms and rates if you're new to us.</p></li>
+          <li><p>We look for people whose experience fits your service.</p></li>
+          <li><p>We tell you who's coming, or tell you plainly if we can't cover it.</p></li>
         </ol>
-        <hr class="divider">
-        <p class="small muted mb-0">You will also get an email with your reference number. Please do not put residents' or patients' personal details in the form.</p>
+        <hr>
+        <p class="small muted mb-0">You'll also get an email with a reference number. Please don't include residents' or patients' details in the form.</p>
       </div>
     </aside>
   </div>

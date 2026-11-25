@@ -55,7 +55,7 @@ async function employerFlow(browser, label, device) {
   if (label === "desktop") await page.screenshot({ path: path.join(SHOTS, "form-errors-desktop.png"), fullPage: false });
 
   // Bad formats
-  await page.check('input[name="urgency"][value="urgent"]', { force: true });
+  await page.click('label.option:has(input[name="urgency"][value="urgent"])');
   await page.fill("#e-name", "Sam Taylor");
   await page.fill("#e-org", "Oak House Care Home");
   await page.fill("#e-phone", "020 7946 0018");
@@ -67,7 +67,7 @@ async function employerFlow(browser, label, device) {
   // Valid
   await page.fill("#e-email", visitor);
   await page.fill("#e-postcode", "HA3 8DD");
-  await page.check('input[name="roles"][value="RGN"]', { force: true });
+  await page.click('label.option:has(input[name="roles"][value="RGN"])');
   await page.selectOption("#e-setting", "Nursing home");
   await page.fill("#e-notes", "Two night shifts from Friday");
   await sleep(1200);
@@ -92,7 +92,7 @@ async function employerFlow(browser, label, device) {
   // Delivery failure: network down
   await page.goto(BASE + "/request-staff/");
   await page.route("**/api/enquiry", (r) => r.abort());
-  await page.check('input[name="urgency"][value="temporary"]', { force: true });
+  await page.click('label.option:has(input[name="urgency"][value="temporary"])');
   for (const [s, v] of [["#e-name", "A"], ["#e-org", "B"], ["#e-phone", "02079460018"], ["#e-email", "a@example.com"], ["#e-postcode", "HA3 8DD"]]) await page.fill(s, v);
   await page.click('#request-form button[type="submit"]');
   await page.waitForSelector("#request-form .send-error.is-visible");
@@ -117,9 +117,9 @@ async function candidateAndGeneral(browser) {
   const page = await ctx.newPage();
   const visitor = `cand.${Date.now()}@example.com`;
   await page.goto(BASE + "/jobs/healthcare-assistant/");
-  await page.locator(".hero a", { hasText: "Register now" }).click();
+  await page.locator(".page-head a", { hasText: "Register now" }).click();
   await page.waitForURL("**/candidates/register/");
-  await page.check('input[name="role"][value="HCA"]', { force: true });
+  await page.click('label.option:has(input[name="role"][value="HCA"])');
   await page.fill("#c-name", "Ade Bello");
   await page.fill("#c-phone", "07700 900123");
   await page.fill("#c-email", visitor);

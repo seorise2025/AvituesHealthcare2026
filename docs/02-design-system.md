@@ -1,4 +1,15 @@
-# Aviteus Healthcare: Design System v1.0
+# Aviteus Healthcare: Design System v2
+
+> **v2 (25 November 2026):** reworked so the site reads like an established local agency, not a template. Same logo, same five brand colours, same fonts. What changed:
+> - No uppercase labels above headings. Headings are plain, in sentence case, with no full stops.
+> - No icon tiles, glows, gradients or floating card shadows. Sections are separated by thin rules and flat panels.
+> - Home hero is a solid slate band with a "staffing line" panel showing the phone number large, because most urgent bookings start with a call.
+> - Services, roles and guides are row lists (title, one line, link), not grids of identical cards.
+> - Steps are plain numbered rows, not numbered circles on dark bands.
+> - Each page type has its own structure (tables on temporary staffing and nurse pages, prose on sector pages, fact boxes on role pages) instead of one repeated block order.
+> - Copy rewritten to sound like the people who answer the phone: first person, specific (Kenton Road, 6am sick calls), no slogan fragments.
+>
+> Component names in v2: `.hero` + `.duty`, `.page-head`, `.rows`/`.row`, `.numbered`, `.panel`, `.strip`, `.ticks`/`.crosses`, `.facts`, `.guides`, `.quote`, `.notice`, `.faq`. Sections 5 and 8 below describe v1 and are kept for reference.
 
 **Rule one:** the logo and the brand colours stay exactly as they are. We only change how they are used.
 

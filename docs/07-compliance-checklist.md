@@ -2,7 +2,7 @@
 
 **Business:** Aviteus Healthcare Ltd, employment agency and employment business supplying care and nursing staff.
 **Audience:** care providers (business buyers) and care workers (individuals, including people new to the UK).
-**Area:** office in England. Website copy names England, Scotland and Wales only if the `coverage` claim is approved.
+**Area:** office in England. **The director confirmed UK-wide coverage on 25 November 2026** (England, Scotland, Wales and Northern Ireland). The `coverage` claim is approved on that basis; a list of active sites by nation is still recommended.
 **Data collected on the site:** contact details, postcode, role, care experience, a yes/no/not-sure answer on right to work, free-text notes, optional marketing consent. No special category data is requested.
 **Checked:** all sources below were opened on **25 November 2026** unless marked otherwise.
 
@@ -52,6 +52,10 @@
 | 4.1 | **Scotland:** a service that supplies registered nurses is a "nurse agency" care service and must be registered with the Care Inspectorate | Public Services Reform (Scotland) Act 2010, sch. 12 para 4: https://www.legislation.gov.uk/asp/2010/8/schedule/12 ; Care Inspectorate registration: https://www.careinspectorate.com/index.php/register-a-care-service | **No Care Inspectorate entry for Aviteus was found by web search.** Any Scotland coverage claim and the nurse FAQ answer stay off the site until `scotland-reg` is approved | **Open: material.** Does Aviteus supply nurses in Scotland? If yes, is it registered? |
 | 4.2 | **Scotland:** PVG scheme membership required for regulated roles since 1 April 2025 | Disclosure Scotland: https://www.disclosure.gov.scot/news/2024/12/pvg-scheme-legal-requirement ; https://www.mygov.scot/pvg-scheme | Compliance and guide pages say "Enhanced DBS, or PVG in Scotland" | **Done** (copy). Process: **Open** |
 | 4.3 | **Wales:** social care workers must register with Social Care Wales within six months; agencies are responsible for their workers registering | Social Care Wales, Information for recruitment agencies: https://socialcare.wales/registration/employers-and-heis-responsibilities/information-for-recruitment-agencies | Mentioned on compliance, support worker and guide pages | **Open:** does Aviteus place workers in Wales, and does it have SCW signatories? |
+| 4.3a | **Northern Ireland:** an agency supplying nurses is a nursing agency and must be registered with RQIA | Nursing Agencies Regulations (Northern Ireland) 2005: https://www.legislation.gov.uk/nisr/2005/175 ; RQIA registration: https://www.rqia.org.uk/guidance/registration-guidance/ | Nurse supply in Northern Ireland is only claimed if `ni-reg` is approved. The nurse FAQ tells visitors that registration is required | **Open: material.** Do you supply nurses in Northern Ireland? Are you registered with RQIA? |
+| 4.3b | **Northern Ireland:** social care workers must be registered with the Northern Ireland Social Care Council | NISCC: https://niscc.info/registration-matters/ | Mentioned on compliance, support worker and guide pages | **Open:** process for NISCC registration of agency workers |
+| 4.3c | **Northern Ireland:** criminal record checks go through AccessNI | nidirect: https://www.nidirect.gov.uk/information-and-services/accessni-criminal-record-checks/apply-accessni-check | Compliance and guide pages say "Enhanced AccessNI check" in Northern Ireland | **Done** (copy). Process: **Open** |
+| 4.3d | **Northern Ireland:** agency conduct rules and the fee ban come from Northern Ireland law, not the GB Act | Conduct of Employment Agencies and Employment Businesses Regulations (Northern Ireland) 2005: https://www.legislation.gov.uk/nisr/2005/395/contents/made | No-fee notices say "UK law". The registration guide cites both the GB and NI sources | **Approval:** have an adviser confirm NI agency terms for workers and clients |
 | 4.4 | **England and Wales:** DBS check level must match legal eligibility | DBS eligibility guidance: https://www.gov.uk/government/collections/dbs-eligibility-guidance | Copy says "Enhanced DBS with the adults' barred list" for regulated activity only | **Done** (copy) |
 | 4.5 | Right to work checks follow the Home Office guide | Employer's guide, 1 October 2026 (link in 1.8) | Guide article reflects share codes and eVisas, and that expired British passports are acceptable | **Done** (copy) |
 | 4.6 | Agencies are not CQC-registered for supplying staff alone | Not checked live this session | Site makes no CQC registration claim | **Open:** confirm Aviteus provides no regulated care itself. Its SIC codes include 87300 (residential care) and 86210 (general medical practice) |
@@ -83,10 +87,10 @@
 ## 8. Questions for the business owner (these affect publication)
 
 1. Does Aviteus supply **nurses in Scotland**? If yes, is it registered with the Care Inspectorate as a nurse agency?
-2. Does Aviteus place workers in **Wales** or **Scotland** at all today? (This decides the `coverage` claim and the regional copy.)
+2. Does Aviteus supply **nurses in Northern Ireland**? If yes, is it registered with RQIA?
 3. Is the company **VAT registered**? If yes, what is the number?
 4. Which providers host the site, send email and hold candidate and client records? Where is the data stored? (Needed for the privacy notice.)
 5. How long should unconverted enquiries and registrations be kept?
-6. Is the phone line **really answered 24/7**? (This decides the `h24` claim in the top bar and on 4 pages.)
+6. ~~Is the phone line answered 24/7?~~ Confirmed by the director on 25 November 2026 (`h24` approved).
 7. Which certificates are current: Cyber Essentials, APSCo, framework awards?
 8. Is **permanent recruitment** actively offered? (This decides one page and the related menu items.)

@@ -29,14 +29,14 @@ Latest results: **15/15 handler tests passed. 62/62 browser checks passed.** Ful
 | Storage down | Visitor told it failed (JSON 503 or redirect to `/enquiry-problem/`) | Pass |
 | Spam and abuse | Honeypot, too-fast submissions, wrong origin, wrong content type, oversize body, 5-per-IP rate limit, email header injection | Pass |
 | No JavaScript | Form posts and redirects to the thank-you or problem page | Pass |
-| Keyboard | Skip link, menus open with Enter and close with Escape, focus into the dropdown, mobile menu focus trap and return | Pass |
+| Keyboard | Skip link, menus open with Enter and close with Escape, focus into the dropdown, mobile menu focus trap and return. Focused form fields scroll clear of the sticky header (WCAG 2.2 focus not obscured) | Pass |
 | Accessibility | axe-core WCAG 2.0/2.1/2.2 A and AA on all 30 crawled pages: **0 violations**. One H1 per page. No sideways scroll | Pass |
 | Contrast | All text pairs at AA or better (`02-design-system.md`) | Pass |
 | Links | 36 internal links and assets: 0 broken (excluding files carried over from the live server, below) | Pass |
 | Privacy by default | 0 cookies, 0 browser storage, 0 third-party requests | Pass |
 | Consent (if analytics is enabled) | Banner shown; nothing loads before a choice; Reject loads nothing and is remembered; Accept loads GA | Pass |
-| Performance | Throttled mobile (4x CPU, 1.6 Mbps): LCP 0.8 to 0.9 s, CLS 0, 116 to 130 KB per page | Pass |
-| Claims gate | Production with 0 approvals: 34 claims removed, 2 pages skipped, no placeholders, no broken links. All-approved build also valid | Pass |
+| Performance | Throttled mobile (4x CPU, 1.6 Mbps): LCP under 0.8 s, CLS 0, 109 to 118 KB per page | Pass |
+| Claims gate | Production with only `h24` and `coverage` approved: 33 claims removed, 2 pages skipped, no placeholders, no broken links. All-approved build also valid | Pass |
 | Staging kept out of search | Preview and QA builds: every page `noindex,nofollow`, robots.txt `Disallow: /` | Pass |
 | Banned words and em dashes | Scan of all copy and docs | Pass |
 
@@ -62,7 +62,7 @@ Latest results: **15/15 handler tests passed. 62/62 browser checks passed.** Ful
 | B1 | Privacy notice: processors, retention, transfers, log retention, approval date (`privacy-review`) | Director / adviser | Fill the `[TBC]` items in `src/pages/privacy-policy.html`, then approve |
 | B2 | VAT status (`vat-status`) | Director | Add the number to `src/config.json` if registered, then approve |
 | B3 | Live form delivery tested on the server (`lead-routing`) | Developer | Follow section 5 of `06-sitemap-seo-lead-routing.md` |
-| B4 | **Scotland nurse agency question** (section 4.1 of the compliance checklist) | Director | Answer before publishing any Scotland wording. The site already hides it |
+| B4 | **Nurse agency registration in Scotland (Care Inspectorate) and Northern Ireland (RQIA)** (sections 4.1 and 4.3a of the compliance checklist) | Director | UK-wide coverage is now claimed for care staff. If nurses are supplied in either nation, registration must be confirmed. The site hides any claim to supply nurses there until then |
 | B5 | Fix the live site's 404s now (`try_files` one-liner in `deploy/nginx.conf`) | Developer | Not a blocker for the new site, but the current site is losing enquiries today |
 
 ## 4. Approvals that add content back (optional for launch)
@@ -70,7 +70,7 @@ Latest results: **15/15 handler tests passed. 62/62 browser checks passed.** Ful
 The site can launch without these. Each approval adds the matching content back. Full list: [`04-claims-register.md`](04-claims-register.md).
 
 Highest value first:
-1. `h24`: confirms the 24/7 line (top bar on every page, plus 4 pages)
+1. ~~`h24`~~ **approved** 25 November 2026 (director confirmation). ~~`coverage`~~ **approved** (UK-wide, director confirmation)
 2. `vetting`: restores the vetting table and check lists (12 places)
 3. `frameworks`, `nhs-supply`: framework proof and the NHS page
 4. Testimonials `t-*` and `clients`: the only social proof on the site

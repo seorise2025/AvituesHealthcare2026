@@ -266,7 +266,7 @@ def org_schema(cfg, claims):
                                           "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
                                           "opens": "00:00", "closes": "23:59"}
     if claims["coverage"].get("approved"):
-        s["areaServed"] = ["England", "Scotland", "Wales"]
+        s["areaServed"] = {"@type": "Country", "name": "United Kingdom"}
     return s
 
 

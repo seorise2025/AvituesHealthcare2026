@@ -1,5 +1,5 @@
 <!--meta
-title: Contact Aviteus Healthcare | 020 3488 8172 | Harrow, London
+title: Contact Aviteus Healthcare | 020 3488 8172 | Harrow
 description: Call 020 3488 8172 to book staff or ask about work, email info@aviteushealthcare.co.uk, or visit us at Alpha House, 296 Kenton Road, Harrow HA3 8DD.
 path: /contact-us/
 nav: contact
@@ -7,75 +7,38 @@ schema: org
 breadcrumb: Home=/ > Contact
 -->
 
-<section class="hero hero--page">
+<section class="page-head">
   <div class="container">
     <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Contact</li></ol></nav>
-    <span class="eyebrow">Contact us</span>
-    <h1>How can we help?</h1>
-    <p class="lead">Choose the option that fits and you will reach the right team first time.</p>
-  </div>
-</section>
-
-<section class="section pt-0">
-  <div class="container">
-    <div class="grid grid-3">
-      <div class="door door--employer">
-        <span class="door__tag">I need staff</span>
-        <h2 class="h3">Book staff</h2>
-        <p>For care providers and NHS buyers.</p>
-        <div class="btn-row">
-          <a class="btn btn--light" href="/request-staff/">Request Staff</a>
-          <a class="btn btn--ghost-light" href="tel:+442034888172">Call us</a>
-        </div>
-      </div>
-      <div class="door door--candidate">
-        <span class="door__tag">I want work</span>
-        <h2 class="h3">Join us</h2>
-        <p>For nurses, healthcare assistants and support workers.</p>
-        <div class="btn-row">
-          <a class="btn btn--primary" href="/candidates/register/">Register</a>
-          <a class="btn btn--outline" href="https://wa.me/447418347802" rel="noopener">WhatsApp</a>
-        </div>
-      </div>
-      <div class="card">
-        <span class="door__tag">Anything else</span>
-        <h2 class="h3">General questions</h2>
-        <p>Timesheets, invoices, compliance files, complaints and data protection requests.</p>
-        <p class="mb-0"><a href="mailto:info@aviteushealthcare.co.uk">info@aviteushealthcare.co.uk</a></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section section--bg">
-  <div class="container split">
-    <div>
-      <span class="eyebrow">Our office</span>
-      <h2>Find us in Harrow.</h2>
-      <address class="lead">
-        Aviteus Healthcare Ltd<br>
-        Suite 5, 3rd Floor, Alpha House<br>
-        296 Kenton Road, Harrow<br>
-        HA3 8DD
-      </address>
-      <ul class="ticks">
-        <li>Phone: <a href="tel:+442034888172">020 3488 8172</a></li>
-        <li>Email: <a href="mailto:info@aviteushealthcare.co.uk">info@aviteushealthcare.co.uk</a></li>
-        <li data-claim="office-hours">Office: Monday to Friday, 9am to 5:30pm</li>
-        <li data-claim="h24">Staffing line: 24 hours a day, 7 days a week</li>
-      </ul>
-      <p class="small muted">Please call before visiting so the right person is in the office.</p>
-      <a class="btn btn--outline" href="https://www.google.com/maps/search/?api=1&amp;query=Alpha+House+296+Kenton+Road+Harrow+HA3+8DD" rel="noopener">{{icon:pin}} Get directions</a>
-    </div>
-    <div>
-      {{form:general}}
-    </div>
+    <h1>Contact us</h1>
+    <p class="intro">The quickest way to reach us is by phone. For anything that isn't urgent, email or the form below is fine.</p>
   </div>
 </section>
 
 <section class="section">
-  <div class="container">
-    <div class="section-head"><span class="eyebrow">Complaints</span><h2>Not happy with something?</h2></div>
-    <p>Tell us. Email <a href="mailto:info@aviteushealthcare.co.uk?subject=Complaint">info@aviteushealthcare.co.uk</a> with "Complaint" in the subject, or use the form above and choose "Complaint or feedback". For a complaint about how we handle your personal data, see the <a href="/privacy-policy/#complaints">privacy notice</a>.</p>
+  <div class="container split">
+    <div>
+      <dl class="facts">
+        <dt>Phone</dt><dd><a href="tel:+442034888172">020 3488 8172</a><span data-claim="h24">, answered 24 hours a day</span></dd>
+        <dt>Email</dt><dd><a href="mailto:info@aviteushealthcare.co.uk">info@aviteushealthcare.co.uk</a></dd>
+        <dt>WhatsApp</dt><dd><a href="https://wa.me/447418347802" rel="noopener">07418 347802</a> (for care workers)</dd>
+        <dt>Office</dt><dd>Suite 5, 3rd Floor, Alpha House, 296 Kenton Road, Harrow, HA3 8DD</dd>
+        <dt data-claim="office-hours">Office hours</dt><dd data-claim="office-hours">Monday to Friday, 9am to 5:30pm</dd>
+      </dl>
+      <p class="mt-5 small muted">Please ring before you visit, so we can make sure the right person is in.</p>
+      <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Alpha+House+296+Kenton+Road+Harrow+HA3+8DD" rel="noopener">Directions on Google Maps</a></p>
+
+      <h2 class="mt-7">Which route is right for you?</h2>
+      <ul class="rows">
+        <li class="row"><h3>I need staff</h3><p>Use the request form, or ring if it's for today or tonight.</p><a class="more" href="/request-staff/">Request staff</a></li>
+        <li class="row"><h3>I want work</h3><p>Register online. You can also message us on WhatsApp.</p><a class="more" href="/candidates/register/">Register</a></li>
+        <li class="row"><h3>Something else</h3><p>Timesheets, invoices, compliance files, complaints or data requests. Use the form here.</p><a class="more" href="#message-form">Message us</a></li>
+      </ul>
+    </div>
+    <div>
+      {{form:general}}
+      <h2 class="h3 mt-6">Complaints</h2>
+      <p class="small">If we've got something wrong, tell us. Email <a href="mailto:info@aviteushealthcare.co.uk?subject=Complaint">info@aviteushealthcare.co.uk</a> with "Complaint" in the subject, or choose "Complaint or feedback" in the form. Complaints about your personal data are covered in the <a href="/privacy-policy/#complaints">privacy notice</a>.</p>
+    </div>
   </div>
 </section>
