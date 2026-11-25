@@ -23,12 +23,44 @@ schema: org,faq
       </ul>
     </div>
     <aside class="duty" aria-label="Call the staffing line">
+      <p class="live" data-claim="h24"><span class="live__dot" aria-hidden="true"></span>Line open now</p>
       <p class="duty__label" data-claim="h24" data-fallback="Staffing line">Staffing line, answered day and night</p>
       <a class="duty__phone" href="tel:+442034888172">020 3488 8172</a>
       <p>If you need someone today or tonight, ring rather than filling in a form. We'll start looking as soon as we have the details.</p>
       <hr>
       <p class="mb-0"><a href="/request-staff/">Book ahead online</a> for next week or later.<br><a href="mailto:info@aviteushealthcare.co.uk">info@aviteushealthcare.co.uk</a></p>
     </aside>
+  </div>
+</section>
+
+<section class="paths" aria-label="Choose what you need">
+  <div class="container">
+    <ul class="paths__grid">
+      <li class="path path--urgent">
+        <span class="path__icon">{{icon:phone}}</span>
+        <div class="path__body">
+          <h2 class="path__title">Need cover today?</h2>
+          <p><span data-claim="h24" data-fallback="Ring the staffing line and we'll start looking straight away.">Ring the staffing line. A person answers, day or night.</span></p>
+        </div>
+        <a class="path__link" href="tel:+442034888172">Call 020 3488 8172</a>
+      </li>
+      <li class="path">
+        <span class="path__icon">{{icon:calendar}}</span>
+        <div class="path__body">
+          <h2 class="path__title">Booking shifts ahead?</h2>
+          <p>Send the roles and dates in a two-minute form.</p>
+        </div>
+        <a class="path__link" href="/request-staff/">Request staff</a>
+      </li>
+      <li class="path">
+        <span class="path__icon">{{icon:users}}</span>
+        <div class="path__body">
+          <h2 class="path__title">Looking for care work?</h2>
+          <p>Register once, then pick the shifts that suit you.</p>
+        </div>
+        <a class="path__link" href="/candidates/register/">Register with us</a>
+      </li>
+    </ul>
   </div>
 </section>
 

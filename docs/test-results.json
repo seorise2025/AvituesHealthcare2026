@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-25T11:42:20.185Z",
+  "ran_at": "2026-11-25T11:53:41.148Z",
   "checks": [
     {
       "name": "[desktop] primary call to action visible on a service page",
@@ -39,12 +39,12 @@
     {
       "name": "[desktop] valid request lands on the thank-you page with a reference",
       "ok": true,
-      "detail": "AV-20261125-JFP73"
+      "detail": "AV-20261125-EC3QL"
     },
     {
       "name": "[desktop] request emailed to the bookings inbox",
       "ok": true,
-      "detail": "URGENT Staff request: Oak House Care Home (AV-20261125-JFP73)"
+      "detail": "URGENT Staff request: Oak House Care Home (AV-20261125-EC3QL)"
     },
     {
       "name": "[desktop] bookings email has Reply-To set to the visitor",
@@ -119,12 +119,12 @@
     {
       "name": "[mobile] valid request lands on the thank-you page with a reference",
       "ok": true,
-      "detail": "AV-20261125-5ABHZ"
+      "detail": "AV-20261125-43DGY"
     },
     {
       "name": "[mobile] request emailed to the bookings inbox",
       "ok": true,
-      "detail": "URGENT Staff request: Oak House Care Home (AV-20261125-5ABHZ)"
+      "detail": "URGENT Staff request: Oak House Care Home (AV-20261125-43DGY)"
     },
     {
       "name": "[mobile] bookings email has Reply-To set to the visitor",
@@ -284,7 +284,7 @@
     {
       "name": "[performance] home: LCP under 2.5s on slow mobile",
       "ok": true,
-      "detail": "LCP 1036ms, CLS 0, 202 KB, 9 requests"
+      "detail": "LCP 1240ms, CLS 0, 211 KB, 9 requests"
     },
     {
       "name": "[performance] home: layout shift under 0.1",
@@ -294,7 +294,7 @@
     {
       "name": "[performance] request-staff: LCP under 2.5s on slow mobile",
       "ok": true,
-      "detail": "LCP 1036ms, CLS 0, 192 KB, 9 requests"
+      "detail": "LCP 1132ms, CLS 0, 199 KB, 9 requests"
     },
     {
       "name": "[performance] request-staff: layout shift under 0.1",
@@ -304,7 +304,7 @@
     {
       "name": "[performance] care-homes: LCP under 2.5s on slow mobile",
       "ok": true,
-      "detail": "LCP 1032ms, CLS 0, 190 KB, 9 requests"
+      "detail": "LCP 1088ms, CLS 0, 197 KB, 9 requests"
     },
     {
       "name": "[performance] care-homes: layout shift under 0.1",
@@ -326,26 +326,26 @@
   },
   "performance": {
     "home": {
-      "kb_transferred": 202,
+      "kb_transferred": 211,
       "requests": 9,
-      "load_ms": 1237,
-      "lcp_ms": 1036,
+      "load_ms": 1502,
+      "lcp_ms": 1240,
       "cls": 0,
       "profile": "mobile, 4x CPU slowdown, 1.6 Mbps, 150 ms latency"
     },
     "request-staff": {
-      "kb_transferred": 192,
+      "kb_transferred": 199,
       "requests": 9,
-      "load_ms": 1298,
-      "lcp_ms": 1036,
+      "load_ms": 1405,
+      "lcp_ms": 1132,
       "cls": 0,
       "profile": "mobile, 4x CPU slowdown, 1.6 Mbps, 150 ms latency"
     },
     "care-homes": {
-      "kb_transferred": 190,
+      "kb_transferred": 197,
       "requests": 9,
-      "load_ms": 1316,
-      "lcp_ms": 1032,
+      "load_ms": 1359,
+      "lcp_ms": 1088,
       "cls": 0,
       "profile": "mobile, 4x CPU slowdown, 1.6 Mbps, 150 ms latency"
     }

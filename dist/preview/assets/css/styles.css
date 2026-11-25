@@ -595,3 +595,113 @@ ul li::marker { color: var(--orange-700); }
 .hero { padding-bottom: 8.5rem; }
 @media (min-width: 960px) { .hero { padding-bottom: 9rem; } }
 .brand img { height: 62px; }
+
+/* =========================================================
+   v4: fresh and intuitive. Quick-route panel, live line
+   indicator, and subtle motion. Every animation is off when
+   the visitor asks for reduced motion, and nothing is ever
+   hidden if a browser can't run the animation.
+   ========================================================= */
+
+/* Quick routes, overlapping the bottom of the hero */
+.hero { padding-bottom: 11rem; }
+@media (min-width: 960px) { .hero { padding-bottom: 11.5rem; } }
+.hero::before { bottom: 64px; }
+.paths { position: relative; z-index: 2; margin-top: -88px; }
+.paths__grid { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s4); }
+@media (min-width: 900px) { .paths__grid { grid-template-columns: repeat(3, 1fr); } }
+.path { position: relative; margin: 0; display: grid; grid-template-columns: auto 1fr; grid-template-areas: "icon body" "icon link"; gap: var(--s1) var(--s4); align-items: start; background: var(--white); border-radius: 18px; padding: var(--s5); box-shadow: 0 2px 4px rgba(12,28,48,.06), 0 18px 40px rgba(12,28,48,.14); border: 1px solid var(--line); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.path:hover { transform: translateY(-4px); box-shadow: 0 4px 8px rgba(12,28,48,.08), 0 24px 48px rgba(12,28,48,.18); border-color: #F6CFA6; }
+.path:focus-within { border-color: var(--link); }
+.path__icon { grid-area: icon; width: 52px; height: 52px; border-radius: 16px; background: var(--orange-50); color: var(--orange-700); display: grid; place-items: center; transition: background .2s, color .2s, transform .2s; }
+.path__icon svg { width: 26px; height: 26px; }
+.path:hover .path__icon { background: var(--orange); color: var(--navy); transform: rotate(-6deg); }
+.path--urgent .path__icon { background: var(--navy); color: var(--orange-300); }
+.path__body { grid-area: body; }
+.path__title { font-size: var(--fs-lg); font-weight: 800; margin: 0 0 var(--s1); color: var(--navy); }
+.path__body p { margin: 0; color: var(--muted); font-size: var(--fs-sm); }
+.path__link { grid-area: link; margin-top: var(--s2); font-family: var(--font-head); font-weight: 700; color: var(--orange-700); text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+.path__link::after { content: "\2192"; transition: transform .2s; }
+.path:hover .path__link::after { transform: translateX(4px); }
+.path__link::before { content: ""; position: absolute; inset: 0; border-radius: 18px; }  /* whole card is the link */
+.paths + .section { padding-top: var(--s7); }
+
+/* Live line indicator on the phone card */
+.live { display: inline-flex; align-items: center; gap: 8px; margin: 0 0 var(--s3); padding: 4px 12px 4px 10px; border-radius: 999px; background: #E7F6EE; color: #17643F; font-family: var(--font-head); font-weight: 700; font-size: var(--fs-xs); }
+.hero .duty .live { color: #17643F; }
+.live__dot { position: relative; width: 9px; height: 9px; border-radius: 50%; background: #1E9E5C; }
+.live__dot::after { content: ""; position: absolute; inset: 0; border-radius: 50%; background: #1E9E5C; }
+
+/* Buttons and links: small, quick feedback */
+.btn { transition: background .18s, color .18s, border-color .18s, transform .18s, box-shadow .18s; }
+.btn:hover { transform: translateY(-1px); box-shadow: 0 8px 18px rgba(12,28,48,.16); }
+.btn:active { transform: translateY(0); box-shadow: none; }
+.row:hover .row__icon, .tile:hover .tile__icon { background: var(--orange); color: var(--navy); transform: scale(1.06); }
+.row__icon, .tile__icon { transition: background .2s, color .2s, transform .2s; }
+.tile { transition: transform .2s, box-shadow .2s; }
+.tile:hover { transform: translateY(-3px); box-shadow: 0 2px 4px rgba(12,28,48,.06), 0 16px 32px rgba(12,28,48,.12); }
+.chip { transition: background .18s, border-color .18s; }
+.chip:hover { background: #FFE6CF; border-color: var(--orange); }
+.docs a { transition: color .18s, padding-left .18s; }
+.docs a:hover { padding-left: 6px; }
+.faq summary { transition: color .18s; }
+.faq summary:hover { color: var(--orange-700); }
+.faq summary::after { transition: transform .2s; }
+.faq details[open] summary::after { content: "+"; transform: translateY(-50%) rotate(45deg); }
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Hero: text arrives in order, phone card follows */
+  .hero h1, .hero .container > div > p, .hero .btn-row, .hero__facts { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
+  .hero .container > div > p { animation-delay: .08s; }
+  .hero .btn-row { animation-delay: .16s; }
+  .hero__facts { animation-delay: .24s; }
+  .hero .duty { animation: rise-side .8s cubic-bezier(.2,.7,.2,1) .2s both; }
+  .paths .path { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
+  .paths .path:nth-child(1) { animation-delay: .35s; }
+  .paths .path:nth-child(2) { animation-delay: .43s; }
+  .paths .path:nth-child(3) { animation-delay: .51s; }
+
+  /* Inner page headings */
+  .page-head .container > *, .page-head__grid > * { animation: rise .6s cubic-bezier(.2,.7,.2,1) both; }
+  .page-head__grid > *:nth-child(2) { animation-delay: .12s; }
+
+  /* A soft glow that travels along the heartbeat line */
+  .hero::after { content: ""; position: absolute; z-index: -1; bottom: 64px; height: 84px; width: 180px; left: -200px; background: radial-gradient(closest-side, rgba(255,176,103,.55), transparent); filter: blur(6px); animation: travel 7s ease-in-out 2.2s infinite; pointer-events: none; }
+
+  /* Live dot */
+  .live__dot::after { animation: ping 2s ease-out infinite; }
+
+  /* FAQ answer eases in */
+  .faq details[open] > div { animation: fade .28s ease both; }
+}
+
+/* Reveal on scroll, only where the browser supports it natively.
+   Elsewhere everything is simply visible. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .section .row, .tile, .quote, .numbered > li, .strip {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 35%;
+    }
+  }
+}
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .site-header { animation: header-lift linear both; animation-timeline: scroll(root); animation-range: 0 140px; }
+  }
+}
+
+@keyframes rise { from { transform: translateY(16px); } to { transform: none; } }
+@keyframes rise-side { from { transform: translateX(22px); } to { transform: none; } }
+/* Slide only, never fade: content stays fully readable at every moment */
+@keyframes reveal { from { transform: translateY(28px) scale(.985); } to { transform: none; } }
+@keyframes fade { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+@keyframes ping { 0% { transform: scale(1); opacity: .7; } 80%, 100% { transform: scale(2.8); opacity: 0; } }
+@keyframes travel { 0% { left: -200px; } 55%, 100% { left: calc(100% + 40px); } }
+@keyframes header-lift { from { box-shadow: 0 3px 0 var(--orange), 0 0 0 rgba(12,28,48,0); } to { box-shadow: 0 3px 0 var(--orange), 0 12px 30px rgba(12,28,48,.14); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .btn:hover, .path:hover, .tile:hover, .row:hover { transform: none; }
+}

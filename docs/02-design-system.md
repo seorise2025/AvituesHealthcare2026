@@ -158,3 +158,15 @@ The director sent the official logo and asked for a more vibrant site. v3 takes 
 - **Heartbeat line:** from the logo. It draws across the home hero (static when reduced motion is set) and sits faintly under page headings and call strips.
 - **Shapes:** pill buttons, service cards with icons, orange number discs, testimonial cards, an orange call strip and a floating WhatsApp button.
 - **Accessibility:** white text never sits on orange; orange buttons use navy text (5.8:1). Every page passes axe-core WCAG 2.2 AA.
+
+## v4 (25 November 2026): fresh, intuitive, subtle motion
+
+- **Quick routes:** three cards overlap the bottom of the home hero: cover today (call), booking ahead (form), looking for work (register). Each whole card is the link.
+- **Live indicator:** "Line open now" with a soft green pulse on the phone card (shown only while the 24/7 claim is approved).
+- **Motion rules:**
+  - Movement only, never a fade. Text is fully readable in every frame. This is why a fade version was rejected: it failed WCAG contrast checks while elements were faded.
+  - On load: hero text, the phone card and the quick routes slide in, staggered by under 0.6 s.
+  - On scroll: cards, steps, quotes and call strips rise slightly. This uses the browser's own scroll timeline, so browsers without it show everything still. No JavaScript.
+  - Hover: buttons lift 1px, card icons fill orange, arrows nudge forward.
+  - Ambient: a faint glow travels along the hero heartbeat line every 7 s. The header gains a shadow once you scroll.
+  - All motion stops for visitors who choose reduced motion.

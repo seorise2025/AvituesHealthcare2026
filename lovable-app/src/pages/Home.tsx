@@ -24,12 +24,31 @@ export default function Home() {
             </ul>
           </div>
           <aside className="duty" aria-label="Call the staffing line">
+            <p className="live"><span className="live__dot" aria-hidden="true"></span>Line open now</p>
             <p className="duty__label">Staffing line, answered day and night</p>
             <a href="tel:+442034888172" className="duty__phone">020 3488 8172</a>
             <p>If you need someone today or tonight, ring rather than filling in a form. We'll start looking as soon as we have the details.</p>
             <hr />
             <p className="mb-0"><Link to="/request-staff/">Book ahead online</Link>{" "}for next week or later.<br /><a href="mailto:info@aviteushealthcare.co.uk">info@aviteushealthcare.co.uk</a></p>
           </aside>
+        </div>
+      </section>
+      <section className="paths" aria-label="Choose what you need">
+        <div className="container">
+          <ul className="paths__grid">
+            <li className="path path--urgent"><span className="path__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M5 3h3l2 5-2.5 1.5a11 11 0 0 0 7 7L16 14l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z" /></svg></span><div className="path__body">
+              <h2 className="path__title">Need cover today?</h2>
+              <p><span>Ring the staffing line. A person answers, day or night.</span></p>
+            </div><a href="tel:+442034888172" className="path__link">Call 020 3488 8172</a></li>
+            <li className="path"><span className="path__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4" /><path d="M8 14h3v3H8z" /></svg></span><div className="path__body">
+              <h2 className="path__title">Booking shifts ahead?</h2>
+              <p>Send the roles and dates in a two-minute form.</p>
+            </div><Link to="/request-staff/" className="path__link">Request staff</Link></li>
+            <li className="path"><span className="path__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3.5" /><path d="M2.5 20c.6-3.6 3.3-6 6.5-6s5.9 2.4 6.5 6" /><circle cx="17" cy="9" r="2.5" /><path d="M16.5 14c2.6.2 4.4 2.3 5 5" /></svg></span><div className="path__body">
+              <h2 className="path__title">Looking for care work?</h2>
+              <p>Register once, then pick the shifts that suit you.</p>
+            </div><Link to="/candidates/register/" className="path__link">Register with us</Link></li>
+          </ul>
         </div>
       </section>
       <section className="section">
