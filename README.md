@@ -4,6 +4,15 @@ A complete lead-generation website for [aviteushealthcare.co.uk](https://aviteus
 
 **Status: built and tested, not yet approved for publication.** See [`docs/08-launch-checklist.md`](docs/08-launch-checklist.md).
 
+## Two versions of the same site
+
+| Folder | What it is | Use it for |
+|---|---|---|
+| [`lovable-app/`](lovable-app/README.md) | **React app (Vite, TypeScript, React Router)** with live forms and a Lovable Cloud backend. 47 browser checks and 7 backend tests pass. | **Moving to Lovable through GitHub.** Start with its README. |
+| `src/`, `build.py`, `server/` | Static HTML build with the Python lead handler | Hosting on your own server with nginx |
+
+The React pages are generated from the static build by `tools/html_to_react.py`, so both carry the same approved copy. Once the site lives in Lovable, edit `lovable-app/src/pages/*.tsx` directly.
+
 ## Hand-over documents
 
 | Document | What it covers |

@@ -1,0 +1,45 @@
+// Generated from the approved site copy by tools/html_to_react.py.
+// Safe to edit by hand once the site lives in Lovable.
+import { Link } from "react-router-dom";
+import Seo from "@/components/Seo";
+
+export default function Accessibility() {
+  return (
+    <>
+      <Seo title="Accessibility Statement | Aviteus Healthcare" description="How accessible this website is, what we have tested, known problems and how to get information in another format." path="/accessibility/" jsonLd={[{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aviteushealthcare.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Accessibility", "item": "https://aviteushealthcare.co.uk/accessibility/"}]}]} />
+      <section className="section">
+        <div className="container prose">
+          <nav className="breadcrumb" aria-label="Breadcrumb">
+            <ol>
+              <li><Link to="/">Home</Link></li>
+              <li aria-current="page">Accessibility</li>
+            </ol>
+          </nav>
+          <h1>Accessibility statement</h1>
+          <p className="intro">We want everyone to be able to use this website, including people who use a screen reader, a keyboard, voice control or screen magnification.</p>
+          <h2>What we aim for</h2>
+          <p>We design and test this website against the Web Content Accessibility Guidelines (WCAG) 2.2 at level AA.</p>
+          <h2>What we have done</h2>
+          <ul>
+            <li>Text and background colours meet the AA contrast ratio</li>
+            <li>Every page, menu and form works with a keyboard alone, with a visible focus outline</li>
+            <li>A "skip to content" link on every page</li>
+            <li>Every form field has a visible label, and errors are explained in words, listed at the top of the form and linked to the field</li>
+            <li>Pages work when zoomed to 200% and on small phone screens</li>
+            <li>Animations are turned off if you ask your device to reduce motion</li>
+          </ul>
+          <h2>How we tested</h2>
+          <p>Before launch we ran automated checks with the axe-core tool on every page, and checked keyboard use, colour contrast and form errors by hand. These tests do not replace testing with disabled users, which has not yet been done.</p>
+          <h2>Known problems</h2>
+          <ul>
+            <li>Some PDF documents, including our timesheet, carbon reduction plan and modern slavery statement, may not work well with screen readers. Ask us and we will send the information in another format.</li>
+          </ul>
+          <h2>Need something in a different format?</h2>
+          <p>Email{" "}<a href="mailto:info@aviteushealthcare.co.uk?subject=Accessibility">info@aviteushealthcare.co.uk</a>{" "}or call{" "}<a href="tel:+442034888172">020 3488 8172</a>. Tell us what you need, for example large print, a plain text version or a phone call instead of a form.</p>
+          <h2>Report a problem</h2>
+          <p>If something on this website does not work for you, please tell us using the details above. We will reply as soon as we can and tell you what we will do about it.</p>
+        </div>
+      </section>
+    </>
+  );
+}

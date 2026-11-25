@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /candidates/timesheet/
+Disallow: /*?review=1
+
+Sitemap: https://aviteushealthcare.co.uk/sitemap.xml

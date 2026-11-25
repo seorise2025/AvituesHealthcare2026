@@ -1,0 +1,126 @@
+// Generated from the approved site copy by tools/html_to_react.py.
+// Safe to edit by hand once the site lives in Lovable.
+import { Link } from "react-router-dom";
+import Seo from "@/components/Seo";
+
+export default function PrivacyNotice() {
+  return (
+    <>
+      <Seo title="Privacy Notice | Aviteus Healthcare" description="How Aviteus Healthcare Ltd collects and uses personal information through this website, and your rights under UK data protection law." path="/privacy-policy/" jsonLd={[{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aviteushealthcare.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Privacy notice", "item": "https://aviteushealthcare.co.uk/privacy-policy/"}]}]} />
+      <section className="section">
+        <div className="container prose">
+          <nav className="breadcrumb" aria-label="Breadcrumb">
+            <ol>
+              <li><Link to="/">Home</Link></li>
+              <li aria-current="page">Privacy notice</li>
+            </ol>
+          </nav>
+          <h1>Privacy notice</h1>
+          <p className="article-meta">Website privacy notice. Last updated{" "}<span className="tbc">[TBC: date approved]</span>.</p>
+          <p className="intro">This notice explains what personal information we collect through this website, why, who we share it with, how long we keep it, and your rights. If you go on to work with us, or to book staff with us, we will give you a fuller privacy notice at that point.</p>
+          <h2>Who we are</h2>
+          <p>Aviteus Healthcare Ltd is the controller of your information. We are registered in England and Wales, company number 13337393. Registered office: Alpha House, 296 Kenton Road, Kenton, HA3 8DD. We are registered with the Information Commissioner's Office, registration number ZB303299.</p>
+          <p>For anything about your personal information, email{" "}<a href="mailto:info@aviteushealthcare.co.uk?subject=Data%20protection">info@aviteushealthcare.co.uk</a>{" "}with "Data protection" in the subject, or write to us at the address above.</p>
+          <h2>What we collect, and why</h2>
+          <div className="table-wrap">
+            <table className="data">
+              <thead>
+                <tr>
+                  <th scope="col">When you use</th>
+                  <th scope="col">What we collect</th>
+                  <th scope="col">Why</th>
+                  <th scope="col">Lawful basis</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Request staff form</td>
+                  <td>Name, organisation, phone, work email, postcode of the service, type of service, roles needed, how soon, and anything you write in the notes</td>
+                  <td>To respond to your request and arrange staff</td>
+                  <td>Legitimate interests (responding to business enquiries). Where you act for yourself, steps you ask us to take before a contract</td>
+                </tr>
+                <tr>
+                  <td>Registration form</td>
+                  <td>Name, mobile, email, home postcode, the role you want, your care experience, your answer about right to work, and anything you write in the notes</td>
+                  <td>To contact you about work and check whether we may be able to offer it</td>
+                  <td>Steps you ask us to take before entering a contract with you</td>
+                </tr>
+                <tr>
+                  <td>Contact form</td>
+                  <td>Name, email, topic and your message</td>
+                  <td>To reply to you</td>
+                  <td>Legitimate interests (answering questions)</td>
+                </tr>
+                <tr>
+                  <td>Optional updates or job alert box</td>
+                  <td>The fact that you ticked it, the wording you agreed to, and the date</td>
+                  <td>To send you staffing updates or shift alerts</td>
+                  <td>Your consent. You can withdraw it at any time</td>
+                </tr>
+                <tr>
+                  <td>Any form</td>
+                  <td>The page you sent it from, the page that referred you, any campaign tags in the web address, and the time</td>
+                  <td>To understand which pages lead to enquiries</td>
+                  <td>Legitimate interests (running and improving our website)</td>
+                </tr>
+                <tr>
+                  <td>Any page</td>
+                  <td>Your IP address, the page requested and your browser type, in our web server's logs</td>
+                  <td>To keep the website secure and fix faults</td>
+                  <td>Legitimate interests (keeping our services secure). Logs are kept for{" "}<span className="tbc">[TBC: for example 30 days]</span></td>
+                </tr>
+                <tr>
+                  <td>Any form</td>
+                  <td>Your IP address, held in memory for up to 15 minutes and not saved with your enquiry</td>
+                  <td>To stop spam and abuse of our forms</td>
+                  <td>Legitimate interests (keeping our services secure)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Our forms do not ask for health information or other special category data. Please do not include it, or any personal details about the people you care for.</p>
+          <h2>Emails we send you</h2>
+          <p>When you send a form, we email you a confirmation with your reference number. This is a service message, not marketing. We only send marketing emails or texts if you tick the optional box, and every one will tell you how to stop them.</p>
+          <h2>Who we share it with</h2>
+          <p>We do not sell your information. We use these service providers to run our website and handle enquiries. They act on our instructions:</p>
+          <ul>
+            <li>Website hosting:{" "}<span className="tbc">[TBC: hosting provider and location]</span></li>
+            <li>Email delivery:{" "}<span className="tbc">[TBC: email provider and location]</span></li>
+            <li>Customer and candidate records:{" "}<span className="tbc">[TBC: CRM or applicant system provider and location]</span></li>
+          </ul>
+          <p>We may also share information where the law requires it, for example with regulators or the police.</p>
+          <h2>Transfers outside the UK</h2>
+          <p><span className="tbc">[TBC: confirm whether any provider above stores or accesses data outside the UK. If so, name the safeguard used, such as UK adequacy regulations or the International Data Transfer Agreement.]</span></p>
+          <h2>How long we keep it</h2>
+          <ul>
+            <li>Copies held by our website form system are deleted automatically after 90 days.</li>
+            <li>Staff requests that do not lead to a booking:{" "}<span className="tbc">[TBC: for example 2 years]</span>.</li>
+            <li>Registrations that do not lead to work:{" "}<span className="tbc">[TBC: for example 12 months]</span>.</li>
+            <li>General messages:{" "}<span className="tbc">[TBC: for example 12 months]</span>.</li>
+            <li>Marketing permissions: until you withdraw them, plus a record that you did.</li>
+          </ul>
+          <h2>Your rights</h2>
+          <p>Under UK data protection law you can ask us to:</p>
+          <ul>
+            <li>give you a copy of your information</li>
+            <li>correct information that is wrong</li>
+            <li>delete your information</li>
+            <li>limit how we use it</li>
+            <li>stop using it where we rely on legitimate interests</li>
+            <li>give it to you in a format you can pass to someone else</li>
+          </ul>
+          <p>You can withdraw consent for marketing at any time. To make a request, email us. We will reply within one month. There is no charge in most cases.</p>
+          <h2 id="complaints">Complaints</h2>
+          <p>If you are unhappy with how we have handled your information, please tell us first so we can put it right. Email{" "}<a href="mailto:info@aviteushealthcare.co.uk?subject=Data%20protection%20complaint">info@aviteushealthcare.co.uk</a>{" "}with "Data protection complaint" in the subject. We will acknowledge your complaint within 30 days and tell you what we are doing about it.</p>
+          <p>You can also complain to the Information Commissioner's Office at{" "}<a href="https://ico.org.uk/make-a-complaint/" rel="noopener">ico.org.uk/make-a-complaint</a>{" "}or on 0303 123 1113.</p>
+          <h2>Automated decisions</h2>
+          <p>We do not make decisions about you using only automated means.</p>
+          <h2>Cookies</h2>
+          <p>See our{" "}<Link to="/cookie-policy/">cookie notice</Link>.</p>
+          <h2>Changes to this notice</h2>
+          <p>We will update this page if we change how we use your information. The date at the top shows the latest version.</p>
+        </div>
+      </section>
+    </>
+  );
+}
