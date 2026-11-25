@@ -10,7 +10,7 @@ export default function Home() {
       <section className="hero">
         <div className="container">
           <div>
-            <h1>Agency nurses and care staff, wherever you are in the UK</h1>
+            <h1>Agency nurses and care staff,{" "}<span className="hl">wherever you are in the UK</span></h1>
             <p>We supply care homes, supported living and mental health services from our office on Kenton Road in Harrow. Care managers ring us when a shift falls through, when a run of nights needs covering, or when they need a nurse and the usual places have nobody. We find someone whose experience fits, and we call you back with a name.</p>
             <div className="btn-row">
               <Link to="/request-staff/" className="btn btn--light btn--lg">Request staff</Link>
@@ -39,9 +39,9 @@ export default function Home() {
             <Link to="/hire-staff/" className="more">All services and what affects the price</Link>
           </div>
           <ul className="rows">
-            <li className="row"><h3><Link to="/hire-staff/emergency-cover/">Cover for today or tonight</Link></h3><p>Sickness, a no-show, an admission you didn't plan for. Phone us and we look for someone nearby who knows your kind of service.</p><Link to="/hire-staff/emergency-cover/" className="more">Urgent cover</Link></li>
-            <li className="row"><h3><Link to="/hire-staff/temporary-staffing/">Shifts you can see coming</Link></h3><p>Holidays, training days, a vacancy you're still recruiting for. Book single shifts, or block book the same people for weeks.</p><Link to="/hire-staff/temporary-staffing/" className="more">Temporary staffing</Link></li>
-            <li className="row"><h3><Link to="/hire-staff/nursing-staff/">A nurse on shift</Link></h3><p>RGN, RMN and RNLD nurses for nursing homes, mental health and learning disability services.</p><Link to="/hire-staff/nursing-staff/" className="more">Agency nurses</Link></li>
+            <li className="row"><span className="row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z" /></svg></span><h3><Link to="/hire-staff/emergency-cover/">Cover for today or tonight</Link></h3><p>Sickness, a no-show, an admission you didn't plan for. Phone us and we look for someone nearby who knows your kind of service.</p><Link to="/hire-staff/emergency-cover/" className="more">Urgent cover</Link></li>
+            <li className="row"><span className="row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4" /><path d="M8 14h3v3H8z" /></svg></span><h3><Link to="/hire-staff/temporary-staffing/">Shifts you can see coming</Link></h3><p>Holidays, training days, a vacancy you're still recruiting for. Book single shifts, or block book the same people for weeks.</p><Link to="/hire-staff/temporary-staffing/" className="more">Temporary staffing</Link></li>
+            <li className="row"><span className="row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M12 20s-7-4.4-9-9a4.8 4.8 0 0 1 9-3 4.8 4.8 0 0 1 9 3c-2 4.6-9 9-9 9z" /></svg></span><h3><Link to="/hire-staff/nursing-staff/">A nurse on shift</Link></h3><p>RGN, RMN and RNLD nurses for nursing homes, mental health and learning disability services.</p><Link to="/hire-staff/nursing-staff/" className="more">Agency nurses</Link></li>
           </ul>
         </div>
       </section>
@@ -50,15 +50,18 @@ export default function Home() {
           <h2>The services we staff</h2>
           <p className="intro">A carer who is brilliant on a dementia unit may not be the right person for a young man with autism living in his own flat. So we ask about the people you support before we send anyone.</p>
           <div className="cols cols-3 mt-6">
-            <div>
+            <div className="tile">
+              <span className="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M3 11l9-7 9 7" /><path d="M5 10v10h14V10" /><path d="M10 20v-6h4v6" /></svg></span>
               <h3><Link to="/sectors/care-homes/">Care and nursing homes</Link></h3>
               <p className="muted">Residential, nursing and dementia care. Nurses for nights, senior carers, healthcare assistants.</p>
             </div>
-            <div>
+            <div className="tile">
+              <span className="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3.5" /><path d="M2.5 20c.6-3.6 3.3-6 6.5-6s5.9 2.4 6.5 6" /><circle cx="17" cy="9" r="2.5" /><path d="M16.5 14c2.6.2 4.4 2.3 5 5" /></svg></span>
               <h3><Link to="/sectors/supported-living/">Supported living</Link></h3>
               <p className="muted">Learning disability, autism and complex needs. Support workers, sleep-ins and waking nights.</p>
             </div>
-            <div>
+            <div className="tile">
+              <span className="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-2 5 3 3 0 0 0 2 5 3 3 0 0 0 3 3h1V4H9z" /><path d="M15 4a3 3 0 0 1 3 3 3 3 0 0 1 2 5 3 3 0 0 1-2 5 3 3 0 0 1-3 3h-1V4h1z" /></svg></span>
               <h3><Link to="/sectors/mental-health/">Mental health</Link></h3>
               <p className="muted">Wards, rehabilitation units and community services. RMNs and mental health support staff.</p>
             </div>

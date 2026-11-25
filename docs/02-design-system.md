@@ -139,3 +139,22 @@ Minimum height 48px. Big enough for thumbs, and meets WCAG target size.
 The staging preview (`dist/preview/`) outlines every claim in a dashed box. Hover or focus it to read what evidence is needed. The production build strips all review markup and removes any unapproved claim. See `README.md` and `04-claims-register.md`.
 
 New components added in the build: `.included` (included / not included boxes), `.factor` (cost and timing factors), `.error-summary` and `.send-error` (form states), `.consent` (cookie banner, only if analytics is switched on), `.grid-auto` (grids that reflow when a card is removed).
+
+## v3 (25 November 2026): logo-led
+
+The director sent the official logo and asked for a more vibrant site. v3 takes its colours from the logo instead of the old site's CSS.
+
+| Token | Value | Use |
+|---|---|---|
+| `--navy` | #142A44 | Headings, hero and page-heading bands (from the logo lettering) |
+| `--navy-900` | #0C1C30 | Top bar, footer |
+| `--orange` | #F08A24 | Main buttons (navy text), bars, discs, the heartbeat line |
+| `--orange-700` | #B3540B | Orange text and icons on white (5:1) |
+| `--orange-300` | #FFB067 | Orange text on navy |
+| `--link` | #1D5C96 | Links and focus rings |
+| `--bg` | #EEF4FA | Pale blue sections |
+
+- **Fonts:** Figtree 700/800 for headings, Atkinson Hyperlegible Next 400/700 for body text. Both are self-hosted, under the Open Font License.
+- **Heartbeat line:** from the logo. It draws across the home hero (static when reduced motion is set) and sits faintly under page headings and call strips.
+- **Shapes:** pill buttons, service cards with icons, orange number discs, testimonial cards, an orange call strip and a floating WhatsApp button.
+- **Accessibility:** white text never sits on orange; orange buttons use navy text (5.8:1). Every page passes axe-core WCAG 2.2 AA.

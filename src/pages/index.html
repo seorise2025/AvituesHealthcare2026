@@ -9,7 +9,7 @@ schema: org,faq
 <section class="hero">
   <div class="container">
     <div>
-      <h1 data-claim="coverage" data-fallback="Agency nurses and care staff for care services">Agency nurses and care staff, wherever you are in the UK</h1>
+      <h1 data-claim="coverage" data-fallback="Agency nurses and care staff for care services">Agency nurses and care staff, <span class="hl">wherever you are in the UK</span></h1>
       <p>We supply care homes, supported living and mental health services from our office on Kenton Road in Harrow. Care managers ring us when a shift falls through, when a run of nights needs covering, or when they need a nurse and the usual places have nobody. We find someone whose experience fits, and we call you back with a name.</p>
       <div class="btn-row">
         <a class="btn btn--light btn--lg" href="/request-staff/">Request staff</a>
@@ -40,21 +40,25 @@ schema: org,faq
     </div>
     <ul class="rows">
       <li class="row">
+        <span class="row__icon">{{icon:bolt}}</span>
         <h3><a href="/hire-staff/emergency-cover/">Cover for today or tonight</a></h3>
         <p>Sickness, a no-show, an admission you didn't plan for. Phone us and we look for someone nearby who knows your kind of service.</p>
         <a class="more" href="/hire-staff/emergency-cover/">Urgent cover</a>
       </li>
       <li class="row">
+        <span class="row__icon">{{icon:calendar}}</span>
         <h3><a href="/hire-staff/temporary-staffing/">Shifts you can see coming</a></h3>
         <p>Holidays, training days, a vacancy you're still recruiting for. Book single shifts, or block book the same people for weeks.</p>
         <a class="more" href="/hire-staff/temporary-staffing/">Temporary staffing</a>
       </li>
       <li class="row">
+        <span class="row__icon">{{icon:heart}}</span>
         <h3><a href="/hire-staff/nursing-staff/">A nurse on shift</a></h3>
         <p>RGN, RMN and RNLD nurses for nursing homes, mental health and learning disability services.</p>
         <a class="more" href="/hire-staff/nursing-staff/">Agency nurses</a>
       </li>
       <li class="row" data-claim="perm-process">
+        <span class="row__icon">{{icon:users}}</span>
         <h3><a href="/hire-staff/permanent-recruitment/">Someone to keep</a></h3>
         <p>Nurses, managers and senior carers recruited for permanent roles. You only interview the people we would hire ourselves.</p>
         <a class="more" href="/hire-staff/permanent-recruitment/">Permanent recruitment</a>
@@ -68,15 +72,18 @@ schema: org,faq
     <h2>The services we staff</h2>
     <p class="intro">A carer who is brilliant on a dementia unit may not be the right person for a young man with autism living in his own flat. So we ask about the people you support before we send anyone.</p>
     <div class="cols cols-3 mt-6">
-      <div>
+      <div class="tile">
+        <span class="tile__icon">{{icon:home}}</span>
         <h3><a href="/sectors/care-homes/">Care and nursing homes</a></h3>
         <p class="muted">Residential, nursing and dementia care. Nurses for nights, senior carers, healthcare assistants.</p>
       </div>
-      <div>
+      <div class="tile">
+        <span class="tile__icon">{{icon:users}}</span>
         <h3><a href="/sectors/supported-living/">Supported living</a></h3>
         <p class="muted">Learning disability, autism and complex needs. Support workers, sleep-ins and waking nights.</p>
       </div>
-      <div>
+      <div class="tile">
+        <span class="tile__icon">{{icon:brain}}</span>
         <h3><a href="/sectors/mental-health/">Mental health</a></h3>
         <p class="muted">Wards, rehabilitation units and community services. RMNs and mental health support staff.</p>
       </div>

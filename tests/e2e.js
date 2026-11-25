@@ -219,6 +219,7 @@ async function crawl(browser) {
   const serverAssets = [], broken = [];
   for (const l of links) {
     const r = await fetch(BASE + l);
+    await r.arrayBuffer(); // read the body so the connection is released
     if (r.status !== 200) (/^\/(files|images)\/|^\/favicon\.ico$/.test(l) ? serverAssets : broken).push(`${l} ${r.status}`);
   }
   results.links.checked = links.size;

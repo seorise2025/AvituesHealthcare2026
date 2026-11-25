@@ -91,7 +91,6 @@ This tests the server function against a fake database and fake email service. I
 
 These must be done before the domain points here:
 
-- [ ] Put the real logo at `public/images/logo.png`. Until then, the text name shows.
 - [ ] Copy the three PDFs from the current server into `public/files/` with the same names: the modern slavery statement, the carbon reduction plan, and the timesheet.
 - [ ] Add the **renewed** Cyber Essentials certificate as `public/files/cyber-essentials-certificate.pdf` (not the expired 2025 one).
 - [ ] Add `public/favicon.ico`.

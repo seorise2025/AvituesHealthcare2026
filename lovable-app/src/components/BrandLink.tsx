@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 /**
- * The logo. Put the real logo file at public/images/logo.png.
- * Until it is there, the text wordmark shows instead.
+ * The official logo (src/assets/logo.png). If it ever fails to load,
+ * the text wordmark shows instead.
  */
 export default function BrandLink() {
   const [failed, setFailed] = useState(false);
@@ -11,10 +12,10 @@ export default function BrandLink() {
     <Link className="brand" to="/" aria-label="Aviteus Healthcare home">
       {!failed && (
         <img
-          src="/images/logo.png"
+          src={logo}
           alt="Aviteus Healthcare"
-          width={160}
-          height={44}
+          width={108}
+          height={56}
           className="brand-logo"
           onError={() => setFailed(true)}
         />

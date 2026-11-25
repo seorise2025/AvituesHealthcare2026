@@ -310,6 +310,9 @@ def convert_footer():
     frag = doc.split("<footer", 1)[1]
     frag = "<footer" + frag.split("</footer>", 1)[0] + "</footer>"
     bar = re.search(r'<div class="action-bar">.*?</div>', doc, re.S).group(0)
+    wa = re.search(r'<a class="wa-float".*?</a>', doc, re.S)
+    if wa:
+        bar += wa.group(0)
     root = parse(frag + bar)
     ctx = Ctx()
     body = "\n".join(render(c, ctx, 3) for c in root.children if isinstance(c, Node))
