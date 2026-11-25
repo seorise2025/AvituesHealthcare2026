@@ -1,0 +1,360 @@
+{
+  "ran_at": "2026-11-25T07:09:50.169Z",
+  "checks": [
+    {
+      "name": "[desktop] primary call to action visible on a service page",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[desktop] call to action opens the request page",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[desktop] empty submit shows an error summary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[desktop] error summary lists each missing field",
+      "ok": true,
+      "detail": "6 errors listed"
+    },
+    {
+      "name": "[desktop] focus moves to the error summary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[desktop] invalid fields marked aria-invalid",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[desktop] bad email and postcode are caught",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[desktop] valid request lands on the thank-you page with a reference",
+      "ok": true,
+      "detail": "AV-20261125-H8TJR"
+    },
+    {
+      "name": "[desktop] request emailed to the bookings inbox",
+      "ok": true,
+      "detail": "URGENT Staff request: Oak House Care Home (AV-20261125-H8TJR)"
+    },
+    {
+      "name": "[desktop] bookings email has Reply-To set to the visitor",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[desktop] visitor receives a confirmation email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[desktop] request posted to the CRM webhook",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[desktop] network failure shows phone and email fallback",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[desktop] button is usable again after a failure",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[desktop] server error (503) shows the fallback message",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[desktop] no cookies or browser storage used",
+      "ok": true,
+      "detail": "cookies=0, storage=0"
+    },
+    {
+      "name": "[mobile] primary call to action visible on a service page",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] call to action opens the request page",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] empty submit shows an error summary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] error summary lists each missing field",
+      "ok": true,
+      "detail": "6 errors listed"
+    },
+    {
+      "name": "[mobile] focus moves to the error summary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] invalid fields marked aria-invalid",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] bad email and postcode are caught",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] valid request lands on the thank-you page with a reference",
+      "ok": true,
+      "detail": "AV-20261125-RM263"
+    },
+    {
+      "name": "[mobile] request emailed to the bookings inbox",
+      "ok": true,
+      "detail": "URGENT Staff request: Oak House Care Home (AV-20261125-RM263)"
+    },
+    {
+      "name": "[mobile] bookings email has Reply-To set to the visitor",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] visitor receives a confirmation email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] request posted to the CRM webhook",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] network failure shows phone and email fallback",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] button is usable again after a failure",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] server error (503) shows the fallback message",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] no cookies or browser storage used",
+      "ok": true,
+      "detail": "cookies=0, storage=0"
+    },
+    {
+      "name": "[mobile] candidate registration reaches the recruitment inbox",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] candidate receives a confirmation email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile] contact form message reaches the general inbox",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[keyboard] first Tab reaches the skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[keyboard] skip link jumps to main content",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[keyboard] Hire Staff menu reachable by Tab",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[keyboard] Enter opens the dropdown",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[keyboard] aria-expanded set to true",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[keyboard] Tab moves into the dropdown links",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[keyboard] Escape closes the dropdown",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile menu] opens",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile menu] focus moves to close button",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[mobile menu] Escape closes it and returns focus",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all pages pass axe-core WCAG 2.2 A/AA rules",
+      "ok": true,
+      "detail": "{}"
+    },
+    {
+      "name": "no JavaScript errors on any page",
+      "ok": true,
+      "detail": "0 errors"
+    },
+    {
+      "name": "no requests to third-party servers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no broken internal links or assets",
+      "ok": true,
+      "detail": "36 checked; broken: "
+    },
+    {
+      "name": "[consent] banner shown when analytics is configured",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[consent] no analytics request before a choice",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[consent] Reject hides the banner and loads nothing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[consent] choice remembered (denied)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[consent] no banner and no analytics after reload",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[consent] Accept loads analytics",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[consent] default build has no banner and no consent script",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[performance] home: LCP under 2.5s on slow mobile",
+      "ok": true,
+      "detail": "LCP 836ms, CLS 0, 130 KB, 9 requests"
+    },
+    {
+      "name": "[performance] home: layout shift under 0.1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[performance] request-staff: LCP under 2.5s on slow mobile",
+      "ok": true,
+      "detail": "LCP 800ms, CLS 0, 119 KB, 8 requests"
+    },
+    {
+      "name": "[performance] request-staff: layout shift under 0.1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "[performance] care-homes: LCP under 2.5s on slow mobile",
+      "ok": true,
+      "detail": "LCP 812ms, CLS 0, 117 KB, 10 requests"
+    },
+    {
+      "name": "[performance] care-homes: layout shift under 0.1",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "axe": {},
+  "links": {
+    "pages": 30,
+    "checked": 36,
+    "carried_from_live_server": [
+      "/favicon.ico 404",
+      "/images/logo.png 404",
+      "/files/Modern-Slavery-Aviteus%20Healthcare%20LTD.pdf 404",
+      "/files/PPN-0621-Carbon-Reduction-Plan-Aviteus.pdf 404",
+      "/files/TIMESHEET_&_Assesment_Aviteus_Healthcare.pdf 404"
+    ]
+  },
+  "performance": {
+    "home": {
+      "kb_transferred": 130,
+      "requests": 9,
+      "load_ms": 1125,
+      "lcp_ms": 836,
+      "cls": 0,
+      "profile": "mobile, 4x CPU slowdown, 1.6 Mbps, 150 ms latency"
+    },
+    "request-staff": {
+      "kb_transferred": 119,
+      "requests": 8,
+      "load_ms": 1075,
+      "lcp_ms": 800,
+      "cls": 0,
+      "profile": "mobile, 4x CPU slowdown, 1.6 Mbps, 150 ms latency"
+    },
+    "care-homes": {
+      "kb_transferred": 117,
+      "requests": 10,
+      "load_ms": 1046,
+      "lcp_ms": 812,
+      "cls": 0,
+      "profile": "mobile, 4x CPU slowdown, 1.6 Mbps, 150 ms latency"
+    }
+  },
+  "notes": [
+    "Files expected from the live server (not in this repo): /favicon.ico, /images/logo.png, /files/Modern-Slavery-Aviteus%20Healthcare%20LTD.pdf, /files/PPN-0621-Carbon-Reduction-Plan-Aviteus.pdf, /files/TIMESHEET_&_Assesment_Aviteus_Healthcare.pdf"
+  ],
+  "summary": {
+    "passed": 62,
+    "failed": 0
+  }
+}

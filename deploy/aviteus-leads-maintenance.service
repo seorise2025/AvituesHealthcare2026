@@ -1,0 +1,10 @@
+[Unit]
+Description=Aviteus lead handler: retry undelivered leads and delete expired ones
+
+[Service]
+Type=oneshot
+User=aviteus
+EnvironmentFile=/etc/aviteus/lead-handler.env
+WorkingDirectory=/opt/aviteus
+ExecStart=/usr/bin/python3 /opt/aviteus/server/lead_handler.py --retry
+ExecStart=/usr/bin/python3 /opt/aviteus/server/lead_handler.py --purge

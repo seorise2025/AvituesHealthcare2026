@@ -9,7 +9,7 @@ Source of truth for code: `site/assets/css/styles.css` (section 1, Tokens).
 ## 1. Logo
 
 - Keep the current logo file: `https://aviteushealthcare.co.uk/images/logo.png`. Copy it to `site/images/logo.png` before launch. The template already points there.
-- Until the file is in place, the template shows a text wordmark ("Aviteus **Healthcare**") so nothing looks broken.
+- Until the file is in place, `main.js` swaps in a text wordmark ("Aviteus **Healthcare**") so nothing looks broken. No inline scripts are used, so the strict Content Security Policy in `deploy/nginx.conf` works.
 - **Ask the client for:** the original vector file (SVG, AI or EPS), a white version for the dark footer, and a square icon for the favicon and social profiles. A PNG alone will blur on high-resolution screens.
 - Clear space: at least the height of the "A" on every side.
 - Minimum size: 120px wide on screen.
@@ -57,7 +57,7 @@ Both fonts are from the current site. We keep them for recognition.
 | Headings, buttons, labels | Poppins | 500, 600, 700 | H1 36 to 56px, H2 30 to 42px, H3 20px |
 | Body | Open Sans | 400, 600 | 17px, line height 1.65 |
 
-- Only five font files load. `display=swap` stops blank text while fonts load.
+- **Self-hosted** in `static/assets/fonts/` (SIL Open Font Licence, licences included). No requests go to Google, so no visitor data is sent to a third party. Only five font files, 84 KB in total. `font-display: swap` stops blank text while fonts load.
 - Fallback: system sans-serif. The page stays readable if Google Fonts is slow.
 - Sentences short. Paragraphs three lines or less on desktop.
 - Headlines are statements of benefit, not labels. "Checked before their first shift" beats "Compliance".
@@ -123,6 +123,8 @@ Minimum height 48px. Big enough for thumbs, and meets WCAG target size.
 - `prefers-reduced-motion` respected.
 - Test with a screen reader and on real phones before launch.
 
-## 8. Review mode
+## 8. Review mode and claims
 
-Add `?review=1` to any page URL. Every claim that needs evidence gets a dashed amber box. Hover to see what to check. Use this in client sign-off meetings. Remove nothing: the flags are invisible to normal visitors.
+The staging preview (`dist/preview/`) outlines every claim in a dashed box. Hover or focus it to read what evidence is needed. The production build strips all review markup and removes any unapproved claim. See `README.md` and `04-claims-register.md`.
+
+New components added in the build: `.included` (included / not included boxes), `.factor` (cost and timing factors), `.error-summary` and `.send-error` (form states), `.consent` (cookie banner, only if analytics is switched on), `.grid-auto` (grids that reflow when a card is removed).

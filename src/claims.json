@@ -1,0 +1,193 @@
+{
+  "_how_to_use": "Set approved to true only when the evidence is on file. Write what the evidence is in 'evidence'. Run: python3 build.py --mode production. Unapproved claims are removed from the public site automatically. Blocking items stop the production build until approved.",
+  "claims": {
+    "privacy-review": {
+      "label": "Privacy notice reviewed and approved (processors, retention periods, lawful bases, international transfers)",
+      "evidence_needed": "Sign-off from the business owner or a data protection adviser on /privacy-policy/",
+      "owner": "Director / data protection lead",
+      "blocking": true, "approved": false, "evidence": ""
+    },
+    "lead-routing": {
+      "label": "Live form delivery tested on the production server",
+      "evidence_needed": "Test enquiry from each form reached the right inbox and CRM, visitor confirmation email received",
+      "owner": "Developer",
+      "blocking": true, "approved": false, "evidence": ""
+    },
+    "vat-status": {
+      "label": "VAT registration status confirmed (number shown in footer if registered)",
+      "evidence_needed": "VAT certificate, or confirmation the company is not VAT registered",
+      "owner": "Director",
+      "blocking": true, "approved": false, "evidence": ""
+    },
+    "h24": {
+      "label": "Phone line answered by a person 24 hours a day, 7 days a week, including bank holidays",
+      "evidence_needed": "Out-of-hours rota and call logs for the last 3 months",
+      "owner": "Operations", "blocking": false, "approved": false, "evidence": ""
+    },
+    "coverage": {
+      "label": "Actively supplies staff in England, Scotland and Wales",
+      "evidence_needed": "List of active client sites in each nation in the last 6 months",
+      "owner": "Operations", "blocking": false, "approved": false, "evidence": ""
+    },
+    "scotland-reg": {
+      "label": "If nurses are supplied in Scotland: registered with the Care Inspectorate as a nurse agency",
+      "evidence_needed": "Care Inspectorate registration certificate, or confirmation that no nurses are supplied in Scotland",
+      "owner": "Compliance", "blocking": false, "approved": false, "evidence": ""
+    },
+    "frameworks": {
+      "label": "Current approved supplier on HealthTrust Europe and NHS Wales frameworks",
+      "evidence_needed": "Award letters showing framework name, lot numbers and expiry dates",
+      "owner": "Compliance", "blocking": false, "approved": false, "evidence": ""
+    },
+    "nhs-supply": {
+      "label": "Currently supplies staff to NHS trusts or health boards",
+      "evidence_needed": "Active NHS booking or framework call-off in the last 6 months",
+      "owner": "Operations", "blocking": false, "approved": false, "evidence": ""
+    },
+    "apsco": {
+      "label": "Current APSCo membership",
+      "evidence_needed": "Current year certificate (the one online is for 2024)",
+      "owner": "Director", "blocking": false, "approved": false, "evidence": ""
+    },
+    "cyber": {
+      "label": "Current Cyber Essentials certificate",
+      "evidence_needed": "Renewed certificate. The 2025 certificate online was due for renewal on 4 March 2026",
+      "owner": "Director", "blocking": false, "approved": false, "evidence": ""
+    },
+    "sponsor": {
+      "label": "Holds a current Skilled Worker sponsor licence",
+      "evidence_needed": "Entry on the Home Office register of licensed sponsors",
+      "owner": "Compliance", "blocking": false, "approved": false, "evidence": ""
+    },
+    "clients": {
+      "label": "Permission to name client organisations",
+      "evidence_needed": "Written permission from each client named",
+      "owner": "Director", "blocking": false, "approved": false, "evidence": ""
+    },
+    "t-sanctuary": {
+      "label": "Testimonial: Jonathon James, Sanctuary Housing Association",
+      "evidence_needed": "Original testimonial on file, consent to publish, sign-off on light grammar edits",
+      "owner": "Director", "blocking": false, "approved": false, "evidence": ""
+    },
+    "t-turningpoint": {
+      "label": "Testimonial: Charles Musendo, Turning Point",
+      "evidence_needed": "Original testimonial on file, consent to publish, sign-off on light grammar edits",
+      "owner": "Director", "blocking": false, "approved": false, "evidence": ""
+    },
+    "t-mencap": {
+      "label": "Testimonial: Steven Moocarme, Royal Mencap",
+      "evidence_needed": "Original testimonial on file, consent to publish, sign-off on light grammar edits",
+      "owner": "Director", "blocking": false, "approved": false, "evidence": ""
+    },
+    "t-ernest": {
+      "label": "Testimonial: Ernest Kyei, healthcare assistant",
+      "evidence_needed": "Consent to publish name and words, sign-off on edits",
+      "owner": "Recruitment", "blocking": false, "approved": false, "evidence": ""
+    },
+    "t-peter": {
+      "label": "Testimonial: Peter Adeyanju, worker",
+      "evidence_needed": "Consent to publish name and words, sign-off on edits",
+      "owner": "Recruitment", "blocking": false, "approved": false, "evidence": ""
+    },
+    "vetting": {
+      "label": "Vetting steps as described: interview, right to work, enhanced DBS or PVG, two references, mandatory training, occupational health, NMC check",
+      "evidence_needed": "Written compliance procedure and a sample audited worker file",
+      "owner": "Compliance", "blocking": false, "approved": false, "evidence": ""
+    },
+    "training-list": {
+      "label": "Mandatory training topics listed (safeguarding, moving and handling, BLS, infection control, medication awareness, dementia awareness, food hygiene)",
+      "evidence_needed": "Training matrix",
+      "owner": "Training", "blocking": false, "approved": false, "evidence": ""
+    },
+    "profiles": {
+      "label": "A worker profile is sent to the client before each booking",
+      "evidence_needed": "Sample profile and the booking procedure",
+      "owner": "Operations", "blocking": false, "approved": false, "evidence": ""
+    },
+    "compliance-files": {
+      "label": "Clients can request a worker's compliance file and receive it",
+      "evidence_needed": "Procedure for sharing files (with the worker's data protection notice covering it)",
+      "owner": "Compliance", "blocking": false, "approved": false, "evidence": ""
+    },
+    "confirmation": {
+      "label": "Written confirmation of worker name and start time is sent for every booking",
+      "evidence_needed": "Sample booking confirmation",
+      "owner": "Operations", "blocking": false, "approved": false, "evidence": ""
+    },
+    "account-manager": {
+      "label": "Each client has a named account manager",
+      "evidence_needed": "Client account list with named managers",
+      "owner": "Operations", "blocking": false, "approved": false, "evidence": ""
+    },
+    "replacement": {
+      "label": "Replacement policy: an unsuitable worker is not sent back and a replacement is sought",
+      "evidence_needed": "Written policy in client terms of business",
+      "owner": "Director", "blocking": false, "approved": false, "evidence": ""
+    },
+    "temp-to-perm": {
+      "label": "Clients can take on temporary workers permanently under agreed terms",
+      "evidence_needed": "Transfer fee terms in client terms of business",
+      "owner": "Director", "blocking": false, "approved": false, "evidence": ""
+    },
+    "perm-process": {
+      "label": "Permanent recruitment process: brief, search, screen, shortlist, offer support",
+      "evidence_needed": "Confirmation the service is offered now, and the fee basis in terms of business",
+      "owner": "Director", "blocking": false, "approved": false, "evidence": ""
+    },
+    "nurse-skills": {
+      "label": "Clinical skills available on request (PEG, catheter care, wound care, diabetes care, end of life care)",
+      "evidence_needed": "Training and competency records for nurses on the books",
+      "owner": "Compliance", "blocking": false, "approved": false, "evidence": ""
+    },
+    "ld-skills": {
+      "label": "Support workers trained in positive behaviour support, epilepsy awareness and autism awareness",
+      "evidence_needed": "Training matrix",
+      "owner": "Training", "blocking": false, "approved": false, "evidence": ""
+    },
+    "mh-skills": {
+      "label": "Mental health staff trained in de-escalation and enhanced observations",
+      "evidence_needed": "Training matrix and the name of the restraint or de-escalation course",
+      "owner": "Training", "blocking": false, "approved": false, "evidence": ""
+    },
+    "pay-weekly": {
+      "label": "Workers are paid weekly",
+      "evidence_needed": "Payroll calendar",
+      "owner": "Payroll", "blocking": false, "approved": false, "evidence": ""
+    },
+    "training-free": {
+      "label": "Mandatory training and Basic Life Support are free to workers",
+      "evidence_needed": "Training policy, including any conditions or clawback terms",
+      "owner": "Training", "blocking": false, "approved": false, "evidence": ""
+    },
+    "uniform": {
+      "label": "Workers receive a uniform free of charge",
+      "evidence_needed": "Uniform policy",
+      "owner": "Operations", "blocking": false, "approved": false, "evidence": ""
+    },
+    "referral": {
+      "label": "Refer-a-friend bonus",
+      "evidence_needed": "Scheme rules: amount, qualifying hours, payment timing",
+      "owner": "Recruitment", "blocking": false, "approved": false, "evidence": ""
+    },
+    "dbs-help": {
+      "label": "Agency helps workers through the DBS or PVG application",
+      "evidence_needed": "Confirmation of process and who pays the fee",
+      "owner": "Compliance", "blocking": false, "approved": false, "evidence": ""
+    },
+    "experience-min": {
+      "label": "Minimum experience requirements per role",
+      "evidence_needed": "Recruitment criteria",
+      "owner": "Recruitment", "blocking": false, "approved": false, "evidence": ""
+    },
+    "team": {
+      "label": "Named team members on the About page",
+      "evidence_needed": "Names, roles and consent from each person",
+      "owner": "Director", "blocking": false, "approved": false, "evidence": ""
+    },
+    "office-hours": {
+      "label": "Office opening hours: Monday to Friday, 9am to 5:30pm",
+      "evidence_needed": "Confirm hours",
+      "owner": "Operations", "blocking": false, "approved": false, "evidence": ""
+    }
+  }
+}

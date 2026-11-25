@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-GB">
+<html lang="en-GB" class="{{html_class}}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,16 +13,15 @@
 <meta property="og:title" content="{{title}}">
 <meta property="og:description" content="{{description}}">
 <meta property="og:url" content="https://aviteushealthcare.co.uk{{path}}">
-<meta property="og:image" content="https://aviteushealthcare.co.uk/images/og-default.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#374757">
+{{analytics_meta}}
 <link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" href="/assets/fonts/poppins-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/open-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/styles.css">
 {{schema}}
 </head>
 <body>
-<div class="review-banner">REVIEW MODE: dashed boxes are claims that need evidence before launch. Hover to see what to check.</div>
+<div class="review-banner" role="note">STAGING PREVIEW. Not for publication. Dashed boxes are claims that need evidence. Hover or focus to read the note.</div>
 <a class="skip-link" href="#main">Skip to content</a>

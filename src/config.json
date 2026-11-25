@@ -1,0 +1,30 @@
+{
+  "site_url": "https://aviteushealthcare.co.uk",
+  "logo_available": true,
+  "server_assets": ["/files/", "/images/", "/favicon.ico"],
+  "analytics": {
+    "_note": "Leave ga4_id empty and the site sets no cookies and loads no tracking. If you add an ID, a consent banner is added and Google Analytics only loads after the visitor clicks Accept.",
+    "ga4_id": ""
+  },
+  "business": {
+    "_source": "Companies House 13337393 and ICO register ZB303299, both checked 25 November 2026",
+    "legal_name": "Aviteus Healthcare Ltd",
+    "trading_name": "Aviteus Healthcare",
+    "company_number": "13337393",
+    "registered_in": "England and Wales",
+    "registered_office": "Alpha House, 296 Kenton Road, Kenton, HA3 8DD",
+    "trading_address": {"street": "Suite 5, 3rd Floor, Alpha House, 296 Kenton Road", "locality": "Harrow", "postcode": "HA3 8DD"},
+    "ico_registration": "ZB303299",
+    "vat_number": "",
+    "founded": "2021-04-15",
+    "phone_display": "020 3488 8172",
+    "phone_intl": "+44 20 3488 8172",
+    "email": "info@aviteushealthcare.co.uk",
+    "same_as": [
+      "https://www.linkedin.com/company/aviteus-healthcare",
+      "https://www.facebook.com/Aviteus-Healthcare-105692805507912",
+      "https://www.instagram.com/aviteus_healthcare/",
+      "https://find-and-update.company-information.service.gov.uk/company/13337393"
+    ]
+  }
+}

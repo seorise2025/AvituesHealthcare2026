@@ -5,10 +5,10 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a class="brand" href="/" aria-label="Aviteus Healthcare home">
-          <img src="/images/logo.png" alt="Aviteus Healthcare" width="160" height="44" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+          <img src="/images/logo.png" alt="Aviteus Healthcare" width="160" height="44" class="brand-logo">
           <span class="brand-text" hidden>Aviteus <b>Healthcare</b></span>
         </a>
-        <p class="mt-5">Compliant nurses, healthcare assistants and support workers for UK care providers. Day or night.</p>
+        <p class="mt-5">Healthcare staffing agency for care homes, supported living and mental health services. Based in Harrow, North West London.</p>
         <p><a class="footer-big" href="tel:+442034888172">020 3488 8172</a><br><a href="mailto:info@aviteushealthcare.co.uk">info@aviteushealthcare.co.uk</a></p>
         <div class="socials">
           <a href="https://www.linkedin.com/company/aviteus-healthcare" aria-label="Aviteus Healthcare on LinkedIn" rel="noopener">{{icon:linkedin}}</a>
@@ -18,12 +18,12 @@
         </div>
       </div>
       <div>
-        <h4>Hire staff</h4>
+        <h2 class="footer-h">Hire staff</h2>
         <ul>
           <li><a href="/request-staff/">Request staff</a></li>
+          <li><a href="/hire-staff/emergency-cover/">Urgent cover</a></li>
           <li><a href="/hire-staff/temporary-staffing/">Temporary staffing</a></li>
-          <li><a href="/hire-staff/emergency-cover/">24/7 emergency cover</a></li>
-          <li><a href="/hire-staff/permanent-recruitment/">Permanent recruitment</a></li>
+          <li data-claim="perm-process"><a href="/hire-staff/permanent-recruitment/">Permanent recruitment</a></li>
           <li><a href="/hire-staff/nursing-staff/">Agency nurses</a></li>
           <li><a href="/sectors/care-homes/">Care homes</a></li>
           <li><a href="/sectors/supported-living/">Supported living</a></li>
@@ -31,43 +31,41 @@
         </ul>
       </div>
       <div>
-        <h4>Find work</h4>
+        <h2 class="footer-h">Find work</h2>
         <ul>
           <li><a href="/candidates/">Work with Aviteus</a></li>
-          <li><a href="/jobs/">Live jobs</a></li>
-          <li><a href="/jobs/healthcare-assistant/">Healthcare assistant jobs</a></li>
-          <li><a href="/jobs/support-worker/">Support worker jobs</a></li>
-          <li><a href="/jobs/registered-nurse/">Agency nurse jobs</a></li>
-          <li><a href="/candidates/register/">How to register</a></li>
-          <li><a href="/candidates/timesheet/">Submit a timesheet</a></li>
+          <li><a href="/jobs/healthcare-assistant/">Healthcare assistants</a></li>
+          <li><a href="/jobs/support-worker/">Support workers</a></li>
+          <li><a href="/jobs/registered-nurse/">Agency nurses</a></li>
+          <li><a href="/candidates/register/">Register with us</a></li>
+          <li><a href="/candidates/timesheet/">Timesheets</a></li>
         </ul>
       </div>
       <div>
-        <h4>Company</h4>
+        <h2 class="footer-h">Company</h2>
         <ul>
           <li><a href="/about-us/">About us</a></li>
-          <li><a href="/compliance/">Compliance and vetting</a></li>
-          <li><a href="/resources/">Resources</a></li>
+          <li><a href="/compliance/">Compliance</a></li>
+          <li><a href="/resources/">Guides</a></li>
           <li><a href="/contact-us/">Contact</a></li>
-          <li><a href="/files/Modern-Slavery-Aviteus%20Healthcare%20LTD.pdf">Modern slavery statement</a></li>
-          <li><a href="/files/PPN-0621-Carbon-Reduction-Plan-Aviteus.pdf">Carbon reduction plan</a></li>
+          <li><a href="/files/Modern-Slavery-Aviteus%20Healthcare%20LTD.pdf">Modern slavery statement (PDF)</a></li>
+          <li><a href="/files/PPN-0621-Carbon-Reduction-Plan-Aviteus.pdf">Carbon reduction plan (PDF)</a></li>
         </ul>
       </div>
       <div>
-        <h4>Visit us</h4>
-        <address style="font-style:normal">
-          Aviteus Healthcare Ltd<br>
+        <h2 class="footer-h">Office</h2>
+        <address>
           Suite 5, 3rd Floor, Alpha House<br>
           296 Kenton Road<br>
           Harrow, HA3 8DD
         </address>
-        <p class="mt-5"><a href="https://maps.google.com/?q=Alpha+House+296+Kenton+Road+Harrow+HA3+8DD" rel="noopener">Get directions</a></p>
+        <p class="mt-5"><a href="https://www.google.com/maps/search/?api=1&amp;query=Alpha+House+296+Kenton+Road+Harrow+HA3+8DD" rel="noopener">Get directions</a></p>
       </div>
     </div>
     <div class="footer-legal">
-      <div>&copy; <span data-year>2026</span> Aviteus Healthcare Ltd. Registered in England and Wales, company no. 13337393. ICO registration ZB303299.</div>
+      <p class="mb-0">&copy; {{year}} Aviteus Healthcare Ltd. Registered in England and Wales, company number 13337393. Registered office: Alpha House, 296 Kenton Road, Kenton, HA3 8DD. ICO registration ZB303299.{{vat}}</p>
       <ul>
-        <li><a href="/privacy-policy/">Privacy policy</a></li>
+        <li><a href="/privacy-policy/">Privacy</a></li>
         <li><a href="/cookie-policy/">Cookies</a></li>
         <li><a href="/accessibility/">Accessibility</a></li>
         <li><a href="/sitemap.xml">Sitemap</a></li>
@@ -76,11 +74,11 @@
   </div>
 </footer>
 
-<div class="action-bar" aria-label="Quick actions">
+<div class="action-bar">
   <a class="btn btn--outline" href="/candidates/">Find Work</a>
   <a class="btn btn--primary" href="/request-staff/">Request Staff</a>
 </div>
-
+{{consent}}
 <script src="/assets/js/main.js" defer></script>
 </body>
 </html>

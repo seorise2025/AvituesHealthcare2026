@@ -1,0 +1,8 @@
+{
+  "name": "aviteus-site-tests",
+  "private": true,
+  "description": "Browser tests. Playwright is expected to be installed globally or in the environment.",
+  "devDependencies": {
+    "axe-core": "4.10.2"
+  }
+}

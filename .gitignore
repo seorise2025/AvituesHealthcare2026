@@ -1,2 +1,8 @@
 __pycache__/
 .DS_Store
+dist/production/
+dist/qa/
+dist/qa-analytics/
+data/
+tests/node_modules/
+*.db

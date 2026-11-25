@@ -1,5 +1,7 @@
 # Aviteus Healthcare: Website Strategy, Audit and Sitemap
 
+> **Note (25 November 2026):** this is the first audit of the live site, kept for history. The sitemap, page list and lead routing are **superseded** by `06-sitemap-seo-lead-routing.md`. Claims are now handled by the claims register (`04-claims-register.md`), not `data-verify` flags.
+
 **Prepared:** 25 November 2026
 **Site:** aviteushealthcare.co.uk
 **Goal:** Turn the website into a lead engine for two audiences: care providers who book staff, and care workers who want shifts.

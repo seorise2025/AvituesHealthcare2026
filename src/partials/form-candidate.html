@@ -1,0 +1,85 @@
+<form class="form-card" action="/api/enquiry" method="post" data-lead-form="candidate" id="register-form">
+  <input type="hidden" name="lead_type" value="candidate">
+  <input type="hidden" name="page_url" value=""><input type="hidden" name="referrer" value=""><input type="hidden" name="form_ts" value="">
+  <input type="hidden" name="utm_source" value=""><input type="hidden" name="utm_medium" value=""><input type="hidden" name="utm_campaign" value="">
+  <div class="hp" aria-hidden="true"><label for="c-website">Leave this empty</label><input id="c-website" type="text" name="website" tabindex="-1" autocomplete="off"></div>
+
+  <div class="error-summary" role="alert" tabindex="-1">
+    <h2>Please check the form</h2>
+    <ul class="js-errors"></ul>
+  </div>
+
+  <fieldset class="field full mb-5">
+    <legend>What work are you looking for? <span class="req" aria-hidden="true">*</span><span class="sr-only">(required)</span></legend>
+    <div class="options">
+      <label class="option"><input id="c-role" type="radio" name="role" value="HCA" required><span>Healthcare assistant</span></label>
+      <label class="option"><input type="radio" name="role" value="Support worker"><span>Support worker</span></label>
+      <label class="option"><input type="radio" name="role" value="Senior carer"><span>Senior carer</span></label>
+      <label class="option"><input type="radio" name="role" value="Nurse"><span>Registered nurse</span></label>
+    </div>
+    <span class="error-msg">Choose the role you want.</span>
+  </fieldset>
+
+  <div class="form-grid">
+    <div class="field">
+      <label for="c-name">Full name <span class="req" aria-hidden="true">*</span></label>
+      <input id="c-name" name="name" type="text" autocomplete="name" maxlength="100" required aria-describedby="c-name-err">
+      <span class="error-msg" id="c-name-err">Enter your name.</span>
+    </div>
+    <div class="field">
+      <label for="c-phone">Mobile number <span class="req" aria-hidden="true">*</span></label>
+      <input id="c-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="30" required aria-describedby="c-phone-err">
+      <span class="error-msg" id="c-phone-err">Enter a UK phone number, for example 07700 900123.</span>
+    </div>
+    <div class="field">
+      <label for="c-email">Email <span class="req" aria-hidden="true">*</span></label>
+      <input id="c-email" name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="c-email-err">
+      <span class="error-msg" id="c-email-err">Enter an email address, for example name@example.co.uk.</span>
+    </div>
+    <div class="field">
+      <label for="c-postcode">Home postcode <span class="req" aria-hidden="true">*</span></label>
+      <input id="c-postcode" name="postcode" type="text" autocomplete="postal-code" maxlength="10" required pattern="[A-Za-z]{1,2}[0-9][0-9A-Za-z]? ?[0-9][A-Za-z]{2}" aria-describedby="c-postcode-hint c-postcode-err">
+      <span class="hint" id="c-postcode-hint">So we can offer work you can reach.</span>
+      <span class="error-msg" id="c-postcode-err">Enter a UK postcode, for example HA3 8DD.</span>
+    </div>
+    <div class="field">
+      <label for="c-exp">Paid care experience in the UK <span class="req" aria-hidden="true">*</span></label>
+      <select id="c-exp" name="experience" required aria-describedby="c-exp-err">
+        <option value="">Choose one</option>
+        <option>None yet</option>
+        <option>Less than 6 months</option>
+        <option>6 to 12 months</option>
+        <option>1 to 3 years</option>
+        <option>More than 3 years</option>
+      </select>
+      <span class="error-msg" id="c-exp-err">Choose your experience.</span>
+    </div>
+    <div class="field">
+      <label for="c-rtw">Do you have the right to work in the UK? <span class="req" aria-hidden="true">*</span></label>
+      <select id="c-rtw" name="right_to_work" required aria-describedby="c-rtw-hint c-rtw-err">
+        <option value="">Choose one</option>
+        <option>Yes</option>
+        <option>No</option>
+        <option>Not sure</option>
+      </select>
+      <span class="hint" id="c-rtw-hint">We check right to work for everyone before any work starts. You do not need documents yet.</span>
+      <span class="error-msg" id="c-rtw-err">Choose an answer.</span>
+    </div>
+    <div class="field full">
+      <label for="c-notes">Anything you want us to know</label>
+      <textarea id="c-notes" name="notes" maxlength="2000" aria-describedby="c-notes-hint"></textarea>
+      <span class="hint" id="c-notes-hint">For example: the days you can work, or that you drive. Please do not include health information here.</span>
+    </div>
+    <div class="field full">
+      <label class="consent-box"><input type="checkbox" name="marketing_opt_in" value="yes"> <span>Optional: send me new shift and job alerts by email or text. I can opt out at any time.</span></label>
+    </div>
+    <div class="field full">
+      <button class="btn btn--primary btn--lg btn--block" type="submit">Register my interest</button>
+      <p class="privacy-line mt-3">Free to join. We use your details to talk to you about work and to check you are eligible. Read our <a href="/privacy-policy/">privacy notice</a>.</p>
+      <div class="notice send-error" role="alert" tabindex="-1">
+        {{icon:alert}}
+        <p><strong>Your details did not send.</strong> Please try again in a minute, call <a href="tel:+442034888172">020 3488 8172</a>, or message us on <a href="https://wa.me/447418347802" rel="noopener">WhatsApp</a>.</p>
+      </div>
+    </div>
+  </div>
+</form>

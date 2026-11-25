@@ -1,0 +1,45 @@
+<form class="form-card" action="/api/enquiry" method="post" data-lead-form="general" id="message-form">
+  <input type="hidden" name="lead_type" value="general">
+  <input type="hidden" name="page_url" value=""><input type="hidden" name="referrer" value=""><input type="hidden" name="form_ts" value="">
+  <div class="hp" aria-hidden="true"><label for="g-website">Leave this empty</label><input id="g-website" type="text" name="website" tabindex="-1" autocomplete="off"></div>
+  <h2 class="h3">Send us a message</h2>
+  <div class="error-summary" role="alert" tabindex="-1">
+    <h2>Please check the form</h2>
+    <ul class="js-errors"></ul>
+  </div>
+  <div class="form-grid form-grid--single">
+    <div class="field">
+      <label for="g-name">Name <span class="req" aria-hidden="true">*</span></label>
+      <input id="g-name" name="name" autocomplete="name" maxlength="100" required aria-describedby="g-name-err">
+      <span class="error-msg" id="g-name-err">Enter your name.</span>
+    </div>
+    <div class="field">
+      <label for="g-email">Email <span class="req" aria-hidden="true">*</span></label>
+      <input id="g-email" name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="g-email-err">
+      <span class="error-msg" id="g-email-err">Enter an email address, for example name@example.co.uk.</span>
+    </div>
+    <div class="field">
+      <label for="g-topic">What is it about?</label>
+      <select id="g-topic" name="topic">
+        <option>General question</option>
+        <option>Timesheet or pay</option>
+        <option>Invoice</option>
+        <option>Compliance file</option>
+        <option>Complaint or feedback</option>
+        <option>Data protection request</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="g-msg">Message <span class="req" aria-hidden="true">*</span></label>
+      <textarea id="g-msg" name="message" maxlength="3000" required aria-describedby="g-msg-err"></textarea>
+      <span class="error-msg" id="g-msg-err">Enter your message.</span>
+    </div>
+    <button class="btn btn--primary btn--block" type="submit">Send message</button>
+    <p class="privacy-line">We use your details to reply to you. Read our <a href="/privacy-policy/">privacy notice</a>.</p>
+    <div class="notice send-error" role="alert" tabindex="-1">
+      {{icon:alert}}
+      <p><strong>Your message did not send.</strong> Please email <a href="mailto:info@aviteushealthcare.co.uk">info@aviteushealthcare.co.uk</a> or call <a href="tel:+442034888172">020 3488 8172</a>.</p>
+    </div>
+  </div>
+</form>
