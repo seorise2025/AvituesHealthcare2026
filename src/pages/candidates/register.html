@@ -1,0 +1,112 @@
+<!--meta
+title: Register With a Healthcare Agency | Documents & Steps | Aviteus
+description: Register with Aviteus Healthcare in 10 minutes. See the documents you need, how checks work and how fast you can start your first shift.
+path: /candidates/register/
+nav: work
+breadcrumb: Home=/ > Find work=/candidates/ > Register
+-->
+
+<section class="hero hero--page">
+  <div class="container layout-side">
+    <div>
+      <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/candidates/">Find work</a></li><li>Register</li></ol></nav>
+      <span class="eyebrow">Register for work</span>
+      <h1>Register in 10 minutes. Start work sooner.</h1>
+      <p class="lead">Tell us a little about you. A consultant will call you to talk through the work you want and the next steps.</p>
+
+      <div class="form-card mt-5">
+        <form data-lead-form="candidate" data-endpoint="REPLACE_WITH_CRM_ENDPOINT" data-success="candidate-success" method="post">
+          <input type="hidden" name="lead_type" value="candidate">
+          <input type="hidden" name="page_url" value="">
+          <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign"><input type="hidden" name="utm_term"><input type="hidden" name="utm_content"><input type="hidden" name="gclid">
+          <div class="hp" aria-hidden="true"><label>Leave blank<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+
+          <fieldset class="field full" style="margin-bottom:var(--s5)">
+            <legend>What role are you looking for? <span class="req">*</span></legend>
+            <div class="options">
+              <label class="option"><input type="radio" name="role" value="HCA" required><span>Healthcare assistant</span></label>
+              <label class="option"><input type="radio" name="role" value="Support worker"><span>Support worker</span></label>
+              <label class="option"><input type="radio" name="role" value="Senior carer"><span>Senior carer</span></label>
+              <label class="option"><input type="radio" name="role" value="Nurse"><span>Registered nurse</span></label>
+            </div>
+            <span class="error-msg">Please choose a role.</span>
+          </fieldset>
+
+          <div class="form-grid">
+            <div class="field"><label for="c-first">First name <span class="req">*</span></label><input id="c-first" name="first_name" autocomplete="given-name" required><span class="error-msg">Please enter your first name.</span></div>
+            <div class="field"><label for="c-last">Last name <span class="req">*</span></label><input id="c-last" name="last_name" autocomplete="family-name" required><span class="error-msg">Please enter your last name.</span></div>
+            <div class="field"><label for="c-phone">Mobile <span class="req">*</span></label><input id="c-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required><span class="error-msg">Please enter your mobile number.</span></div>
+            <div class="field"><label for="c-email">Email <span class="req">*</span></label><input id="c-email" name="email" type="email" autocomplete="email" required><span class="error-msg">Please enter a valid email.</span></div>
+            <div class="field"><label for="c-postcode">Home postcode <span class="req">*</span></label><input id="c-postcode" name="postcode" autocomplete="postal-code" required><span class="hint">We offer shifts close to home first.</span><span class="error-msg">Please enter your postcode.</span></div>
+            <div class="field">
+              <label for="c-exp">UK care experience <span class="req">*</span></label>
+              <select id="c-exp" name="experience" required>
+                <option value="">Choose one</option>
+                <option>None yet</option>
+                <option>Less than 6 months</option>
+                <option>6 to 12 months</option>
+                <option>1 to 3 years</option>
+                <option>More than 3 years</option>
+              </select>
+              <span class="error-msg">Please choose one.</span>
+            </div>
+            <div class="field">
+              <label for="c-rtw">Do you have the right to work in the UK? <span class="req">*</span></label>
+              <select id="c-rtw" name="right_to_work" required>
+                <option value="">Choose one</option>
+                <option>Yes, British or Irish citizen</option>
+                <option>Yes, settled or pre-settled status</option>
+                <option>Yes, visa with work rights</option>
+                <option>Student visa (limited hours)</option>
+                <option>No, I need sponsorship</option>
+              </select>
+              <span class="error-msg">Please choose one.</span>
+            </div>
+            <div class="field">
+              <label for="c-avail">When can you work?</label>
+              <select id="c-avail" name="availability">
+                <option value="">Any time</option>
+                <option>Days</option>
+                <option>Nights</option>
+                <option>Weekends only</option>
+                <option>Around another job</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label class="consent"><input type="checkbox" name="consent" value="yes" required> <span>I agree that Aviteus Healthcare can store my details and contact me about work. See our <a href="/privacy-policy/">privacy policy</a>.</span></label>
+              <span class="error-msg">Please tick to continue.</span>
+            </div>
+            <div class="field full">
+              <button class="btn btn--primary btn--lg btn--block" type="submit">Register my interest</button>
+              <p class="form-note text-center">Free to join. We never charge workers any fees.</p>
+            </div>
+          </div>
+        </form>
+        <div class="form-success" id="candidate-success" tabindex="-1" role="status">
+          <span class="icon-box">{{icon:check}}</span>
+          <h2>Thanks. You are on our list.</h2>
+          <p>A consultant will call you soon. While you wait, start getting your documents ready. It is the fastest way to your first shift.</p>
+          <a class="btn btn--primary" href="https://register.aviteushealthcare.co.uk/" rel="noopener">Open your worker portal</a>
+        </div>
+      </div>
+    </div>
+
+    <aside class="side-card">
+      <div class="card">
+        <h3>Documents to get ready</h3>
+        <p>Have these to hand and you can start much sooner.</p>
+        <ul class="ticks small" data-verify="Compliance lead to confirm the final list">
+          <li>Passport or ID, and right to work proof</li>
+          <li>Two proofs of address from the last 3 months</li>
+          <li>National Insurance number</li>
+          <li>Contact details for two referees</li>
+          <li>Training certificates you already hold</li>
+          <li>DBS Update Service number, if you have one</li>
+          <li>Nurses: NMC pin</li>
+          <li>Bank details for weekly pay</li>
+        </ul>
+        <a class="link-arrow" href="/resources/agency-registration-documents/">Full documents guide</a>
+      </div>
+    </aside>
+  </div>
+</section>

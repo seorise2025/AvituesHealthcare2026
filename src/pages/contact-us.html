@@ -1,0 +1,88 @@
+<!--meta
+title: Contact Aviteus Healthcare | 020 3488 8172 | Harrow, London
+description: Call 020 3488 8172, 24/7, to book staff or ask about work. Email info@aviteushealthcare.co.uk or visit us at Alpha House, 296 Kenton Road, Harrow HA3 8DD.
+path: /contact-us/
+nav: contact
+schema: org
+breadcrumb: Home=/ > Contact
+-->
+
+<section class="hero hero--page">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li>Contact</li></ol></nav>
+    <span class="eyebrow">Contact us</span>
+    <h1>How can we help?</h1>
+    <p class="lead">Pick the option that fits. You will reach the right team first time.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="grid grid-3">
+      <div class="door door--employer">
+        <span class="door__tag">I need staff</span>
+        <h3>Book staff</h3>
+        <p>For care providers, NHS buyers and framework clients.</p>
+        <div class="btn-row" style="margin-top:var(--s5)">
+          <a class="btn btn--light" href="/request-staff/">Request Staff</a>
+          <a class="btn btn--ghost-light" href="tel:+442034888172">Call 24/7</a>
+        </div>
+      </div>
+      <div class="door door--candidate">
+        <span class="door__tag">I want work</span>
+        <h3>Join our team</h3>
+        <p>For nurses, healthcare assistants and support workers.</p>
+        <div class="btn-row" style="margin-top:var(--s5)">
+          <a class="btn btn--primary" href="/candidates/register/">Register</a>
+          <a class="btn btn--outline" href="https://wa.me/447418347802" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+      <div class="card">
+        <span class="door__tag" style="color:var(--teal-700)">Anything else</span>
+        <h3>General enquiries</h3>
+        <p>Timesheets, invoices, compliance files and partnerships.</p>
+        <p class="mb-0"><a href="mailto:info@aviteushealthcare.co.uk">info@aviteushealthcare.co.uk</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--bg">
+  <div class="container split">
+    <div>
+      <span class="eyebrow">Our office</span>
+      <h2>Visit us in Harrow.</h2>
+      <address style="font-style:normal" class="lead">
+        Aviteus Healthcare Ltd<br>
+        Suite 5, 3rd Floor, Alpha House<br>
+        296 Kenton Road, Harrow<br>
+        HA3 8DD
+      </address>
+      <ul class="ticks">
+        <li data-verify="Confirm office opening hours">Office: Monday to Friday, 9am to 5:30pm</li>
+        <li data-verify="Confirm 24/7 line">Booking line: 24 hours, 7 days a week</li>
+        <li data-verify="Check walking time from the office">Near Kenton station (Bakerloo line and London Overground)</li>
+      </ul>
+      <a class="btn btn--outline" href="https://maps.google.com/?q=Alpha+House+296+Kenton+Road+Harrow+HA3+8DD" rel="noopener">{{icon:pin}} Get directions</a>
+    </div>
+    <div class="card">
+      <h3>Send us a message</h3>
+      <form data-lead-form="general" data-endpoint="REPLACE_WITH_CRM_ENDPOINT" data-success="general-success" method="post">
+        <input type="hidden" name="lead_type" value="general"><input type="hidden" name="page_url" value="">
+        <div class="hp" aria-hidden="true"><label>Leave blank<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="form-grid" style="grid-template-columns:1fr">
+          <div class="field"><label for="g-name">Name <span class="req">*</span></label><input id="g-name" name="name" autocomplete="name" required><span class="error-msg">Please enter your name.</span></div>
+          <div class="field"><label for="g-email">Email <span class="req">*</span></label><input id="g-email" name="email" type="email" autocomplete="email" required><span class="error-msg">Please enter a valid email.</span></div>
+          <div class="field">
+            <label for="g-topic">Topic</label>
+            <select id="g-topic" name="topic"><option>General question</option><option>Timesheet or pay</option><option>Invoice</option><option>Compliance file</option><option>Complaint or feedback</option><option>Partnership</option></select>
+          </div>
+          <div class="field"><label for="g-msg">Message <span class="req">*</span></label><textarea id="g-msg" name="message" required></textarea><span class="error-msg">Please add a message.</span></div>
+          <div class="field"><label class="consent"><input type="checkbox" name="consent" value="yes" required> <span>I agree to be contacted about my message. See our <a href="/privacy-policy/">privacy policy</a>.</span></label><span class="error-msg">Please tick to continue.</span></div>
+          <button class="btn btn--primary btn--block" type="submit">Send message</button>
+        </div>
+      </form>
+      <div class="form-success" id="general-success" tabindex="-1" role="status"><span class="icon-box">{{icon:check}}</span><h3>Message sent.</h3><p>We will reply within one working day.</p></div>
+    </div>
+  </div>
+</section>

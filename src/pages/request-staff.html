@@ -1,0 +1,158 @@
+<!--meta
+title: Request Healthcare Staff | Book Nurses & Carers | Aviteus
+description: Book nurses, healthcare assistants and support workers in two minutes. Urgent, temporary or permanent. We call you back fast. Or ring 020 3488 8172, 24/7.
+path: /request-staff/
+nav: hire
+breadcrumb: Home=/ > Request staff
+-->
+
+<section class="hero hero--page">
+  <div class="container layout-side">
+    <div>
+      <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li>Request staff</li></ol></nav>
+      <span class="eyebrow">For care providers</span>
+      <h1>Request staff in two minutes.</h1>
+      <p class="lead">Tell us who you need and when. A staffing consultant will call you back to confirm cover.</p>
+
+      <div class="form-card mt-5">
+        <form data-lead-form="employer" data-endpoint="REPLACE_WITH_CRM_ENDPOINT" data-success="employer-success" method="post">
+          <input type="hidden" name="lead_type" value="employer">
+          <input type="hidden" name="page_url" value="">
+          <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign"><input type="hidden" name="utm_term"><input type="hidden" name="utm_content"><input type="hidden" name="gclid">
+          <div class="hp" aria-hidden="true"><label>Leave blank<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+
+          <fieldset class="field full" style="margin-bottom:var(--s5)">
+            <legend>How soon do you need staff? <span class="req">*</span></legend>
+            <div class="options">
+              <label class="option"><input type="radio" name="urgency" value="urgent" required><span>Today or tomorrow</span></label>
+              <label class="option"><input type="radio" name="urgency" value="temporary"><span>Shifts in the next few weeks</span></label>
+              <label class="option"><input type="radio" name="urgency" value="permanent"><span>Permanent hire</span></label>
+            </div>
+            <span class="error-msg">Please choose one option.</span>
+          </fieldset>
+
+          <fieldset class="field full" style="margin-bottom:var(--s5)">
+            <legend>Who do you need?</legend>
+            <div class="options">
+              <label class="option"><input type="checkbox" name="roles" value="RGN"><span>RGN nurse</span></label>
+              <label class="option"><input type="checkbox" name="roles" value="RMN"><span>RMN nurse</span></label>
+              <label class="option"><input type="checkbox" name="roles" value="RNLD"><span>RNLD nurse</span></label>
+              <label class="option"><input type="checkbox" name="roles" value="Senior carer"><span>Senior carer</span></label>
+              <label class="option"><input type="checkbox" name="roles" value="HCA"><span>Healthcare assistant</span></label>
+              <label class="option"><input type="checkbox" name="roles" value="Support worker"><span>Support worker</span></label>
+              <label class="option"><input type="checkbox" name="roles" value="Manager"><span>Manager or deputy</span></label>
+            </div>
+          </fieldset>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="f-name">Your name <span class="req">*</span></label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required>
+              <span class="error-msg">Please enter your name.</span>
+            </div>
+            <div class="field">
+              <label for="f-role">Your job title</label>
+              <input id="f-role" name="job_title" type="text" autocomplete="organization-title" placeholder="e.g. Home Manager">
+            </div>
+            <div class="field">
+              <label for="f-org">Organisation <span class="req">*</span></label>
+              <input id="f-org" name="organisation" type="text" autocomplete="organization" required>
+              <span class="error-msg">Please enter your organisation.</span>
+            </div>
+            <div class="field">
+              <label for="f-setting">Type of service <span class="req">*</span></label>
+              <select id="f-setting" name="setting" required>
+                <option value="">Choose one</option>
+                <option>Residential care home</option>
+                <option>Nursing home</option>
+                <option>Supported living</option>
+                <option>Learning disability service</option>
+                <option>Mental health service</option>
+                <option>NHS trust or hospital</option>
+                <option>Domiciliary care</option>
+                <option>Other</option>
+              </select>
+              <span class="error-msg">Please choose your type of service.</span>
+            </div>
+            <div class="field">
+              <label for="f-phone">Phone <span class="req">*</span></label>
+              <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+              <span class="hint">We call this number to confirm cover.</span>
+              <span class="error-msg">Please enter a phone number.</span>
+            </div>
+            <div class="field">
+              <label for="f-email">Work email <span class="req">*</span></label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required>
+              <span class="error-msg">Please enter a valid email.</span>
+            </div>
+            <div class="field">
+              <label for="f-postcode">Service postcode <span class="req">*</span></label>
+              <input id="f-postcode" name="postcode" type="text" autocomplete="postal-code" required>
+              <span class="hint">So we send staff who live close by.</span>
+              <span class="error-msg">Please enter a postcode.</span>
+            </div>
+            <div class="field">
+              <label for="f-start">Start date</label>
+              <input id="f-start" name="start_date" type="date">
+            </div>
+            <div class="field">
+              <label for="f-framework">Do you book through a framework?</label>
+              <select id="f-framework" name="framework">
+                <option value="">Not sure</option>
+                <option>No, direct booking</option>
+                <option>HealthTrust Europe</option>
+                <option>NHS Wales</option>
+                <option>Other framework</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="f-volume">How many shifts or people?</label>
+              <input id="f-volume" name="volume" type="text" placeholder="e.g. 4 night shifts a week">
+            </div>
+            <div class="field full">
+              <label for="f-notes">Anything else we should know?</label>
+              <textarea id="f-notes" name="notes" placeholder="Shift times, skills needed, gender preference for personal care, parking..."></textarea>
+            </div>
+            <div class="field full">
+              <label class="consent"><input type="checkbox" name="consent" value="yes" required> <span>I agree that Aviteus Healthcare can contact me about this request. See our <a href="/privacy-policy/">privacy policy</a>.</span></label>
+              <span class="error-msg">Please tick to let us contact you.</span>
+            </div>
+            <div class="field full">
+              <button class="btn btn--primary btn--lg btn--block" type="submit">Send my staffing request</button>
+              <p class="form-note text-center">Need someone in the next few hours? Call <a href="tel:+442034888172">020 3488 8172</a>. It is faster than the form.</p>
+            </div>
+          </div>
+        </form>
+
+        <div class="form-success" id="employer-success" tabindex="-1" role="status">
+          <span class="icon-box">{{icon:check}}</span>
+          <h2>Request received.</h2>
+          <p data-verify="Confirm the callback promise operations can meet">A consultant will call you back shortly to confirm cover. For urgent shifts, please also call <a href="tel:+442034888172">020 3488 8172</a>.</p>
+          <a class="btn btn--outline" href="/compliance/">See how we vet our staff</a>
+        </div>
+      </div>
+    </div>
+
+    <aside class="side-card">
+      <div class="card">
+        <h3>Prefer to talk?</h3>
+        <p>Our booking line is open day and night.</p>
+        <a class="btn btn--teal btn--block" href="tel:+442034888172">{{icon:phone}} 020 3488 8172</a>
+        <a class="btn btn--outline btn--block mt-5" href="mailto:info@aviteushealthcare.co.uk">{{icon:mail}} Email us</a>
+        <hr style="border:0;border-top:1px solid var(--line);margin:var(--s5) 0">
+        <h4>What happens next</h4>
+        <ol class="steps" style="grid-template-columns:1fr;gap:var(--s4)">
+          <li class="step" style="padding-top:0;padding-left:56px"><h3>We call you</h3><p>To confirm the details and agree rates.</p></li>
+          <li class="step" style="padding-top:0;padding-left:56px"><h3>We match staff</h3><p>From our pool of vetted workers.</p></li>
+          <li class="step" style="padding-top:0;padding-left:56px"><h3>You get names</h3><p>Confirmed in writing before the shift.</p></li>
+        </ol>
+        <hr style="border:0;border-top:1px solid var(--line);margin:var(--s5) 0">
+        <ul class="ticks small">
+          <li>No contract needed for a quote</li>
+          <li data-verify="Confirm framework status">Framework rates available</li>
+          <li>Compliance files on request</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>
