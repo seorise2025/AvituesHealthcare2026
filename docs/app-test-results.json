@@ -1,5 +1,5 @@
 {
-  "ran": "2026-11-25T11:15:40.036Z",
+  "ran": "2026-11-25T11:26:13.668Z",
   "passed": 47,
   "failed": 0,
   "results": [
@@ -186,7 +186,7 @@
     {
       "name": "staff request sends and shows reference",
       "ok": true,
-      "detail": "AV-20261125-95Z87"
+      "detail": "AV-20261125-2STDJ"
     },
     {
       "name": "registration sends",

@@ -73,6 +73,14 @@ export default function CareHomes() {
           </div>
         </div>
       </section>
+      <section className="section">
+        <div className="container narrow">
+          <figure className="quote">
+            <blockquote>The healthcare workers provided by your agency are very responsible and truly liked by our residents and staff members.</blockquote>
+            <figcaption><strong>Charles Musendo</strong>, Turning Point</figcaption>
+          </figure>
+        </div>
+      </section>
       <section className="section section--bg">
         <div className="container narrow">
           <h2>Care home questions</h2>

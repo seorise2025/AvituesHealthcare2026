@@ -62,8 +62,8 @@
       "evidence_needed": "Award letters showing framework name, lot numbers and expiry dates",
       "owner": "Compliance",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026 that Aviteus is a current approved supplier on HealthTrust Europe and NHS Wales frameworks. Award letters to be kept on file by the business (CAP Code 3.7); not yet seen."
     },
     "nhs-supply": {
       "label": "Currently supplies staff to NHS trusts or health boards",
@@ -86,8 +86,8 @@
       "evidence_needed": "Renewed certificate. The 2025 certificate online was due for renewal on 4 March 2026",
       "owner": "Director",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026 that Cyber Essentials has been renewed after the 4 March 2026 due date. Upload the renewed certificate to /files/cyber-essentials-certificate.pdf before launch."
     },
     "sponsor": {
       "label": "Holds a current Skilled Worker sponsor licence",
@@ -95,55 +95,55 @@
       "owner": "Compliance",
       "blocking": false,
       "approved": false,
-      "evidence": ""
+      "evidence": "Director confirmed on 25 November 2026: Aviteus does NOT hold a sponsor licence. Keep off the site."
     },
     "clients": {
       "label": "Permission to name client organisations",
       "evidence_needed": "Written permission from each client named",
       "owner": "Director",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026 that every client shown on the previous website has agreed in writing to be named. Written permissions to be kept on file."
     },
     "t-sanctuary": {
       "label": "Testimonial: Jonathon James, Sanctuary Housing Association",
       "evidence_needed": "Original testimonial on file, consent to publish, sign-off on light grammar edits",
       "owner": "Director",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026 that this person agreed in writing to be quoted. Quote taken from the previous website and shortened; keep the consent on file (DMCC Act 2024)."
     },
     "t-turningpoint": {
       "label": "Testimonial: Charles Musendo, Turning Point",
       "evidence_needed": "Original testimonial on file, consent to publish, sign-off on light grammar edits",
       "owner": "Director",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026 that this person agreed in writing to be quoted. Quote taken from the previous website and shortened; keep the consent on file (DMCC Act 2024)."
     },
     "t-mencap": {
       "label": "Testimonial: Steven Moocarme, Royal Mencap",
       "evidence_needed": "Original testimonial on file, consent to publish, sign-off on light grammar edits",
       "owner": "Director",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026 that this person agreed in writing to be quoted. Quote taken from the previous website and shortened; keep the consent on file (DMCC Act 2024)."
     },
     "t-ernest": {
       "label": "Testimonial: Ernest Kyei, healthcare assistant",
       "evidence_needed": "Consent to publish name and words, sign-off on edits",
       "owner": "Recruitment",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026 that this person agreed in writing to be quoted. Quote taken from the previous website and shortened; keep the consent on file (DMCC Act 2024)."
     },
     "t-peter": {
       "label": "Testimonial: Peter Adeyanju, worker",
       "evidence_needed": "Consent to publish name and words, sign-off on edits",
       "owner": "Recruitment",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026 that this person agreed in writing to be quoted. Quote taken from the previous website and shortened; keep the consent on file (DMCC Act 2024)."
     },
     "vetting": {
       "label": "Vetting steps as described: interview, right to work, enhanced DBS or PVG, two references, mandatory training, occupational health, NMC check",
@@ -215,7 +215,7 @@
       "owner": "Director",
       "blocking": false,
       "approved": false,
-      "evidence": ""
+      "evidence": "Director confirmed on 25 November 2026: permanent recruitment is NOT offered. Keep off the site."
     },
     "nurse-skills": {
       "label": "Clinical skills available on request (PEG, catheter care, wound care, diabetes care, end of life care)",
@@ -246,40 +246,40 @@
       "evidence_needed": "Payroll calendar",
       "owner": "Payroll",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026: workers are paid weekly."
     },
     "training-free": {
       "label": "Mandatory training and Basic Life Support are free to workers",
       "evidence_needed": "Training policy, including any conditions or clawback terms",
       "owner": "Training",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026: mandatory training and Basic Life Support are free to workers."
     },
     "uniform": {
       "label": "Workers receive a uniform free of charge",
       "evidence_needed": "Uniform policy",
       "owner": "Operations",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026: uniforms are supplied free."
     },
     "referral": {
       "label": "Refer-a-friend bonus",
       "evidence_needed": "Scheme rules: amount, qualifying hours, payment timing",
       "owner": "Recruitment",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026: refer-a-friend bonus is offered. Scheme rules (amount, qualifying hours) still to be written down."
     },
     "dbs-help": {
       "label": "Agency helps workers through the DBS or PVG application",
       "evidence_needed": "Confirmation of process and who pays the fee",
       "owner": "Compliance",
       "blocking": false,
-      "approved": false,
-      "evidence": ""
+      "approved": true,
+      "evidence": "Director confirmed on 25 November 2026: the agency helps workers with DBS, PVG and AccessNI applications."
     },
     "experience-min": {
       "label": "Minimum experience requirements per role",

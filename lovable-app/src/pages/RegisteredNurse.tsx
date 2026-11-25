@@ -55,6 +55,8 @@ export default function RegisteredNurse() {
             <ul className="ticks">
               <li>You choose your shifts</li>
               <li>Work near home</li>
+              <li>Weekly pay</li>
+              <li>Free mandatory training</li>
             </ul>
             <Link to="/candidates/register/" className="btn btn--primary btn--block">Register now</Link>
           </div>

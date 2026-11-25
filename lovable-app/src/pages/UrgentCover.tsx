@@ -51,6 +51,7 @@ export default function UrgentCover() {
             <ul className="crosses">
               <li>That every urgent shift can be filled. Nobody can honestly promise that.</li>
               <li>To send anyone whose checks aren't complete, however urgent it is.</li>
+              <li>Doctors, therapists or social workers. We supply nurses and care staff only.</li>
             </ul>
           </div>
           <div className="panel panel--bg">
@@ -79,7 +80,7 @@ export default function UrgentCover() {
             </li>
             <li>
               <h3>They arrive</h3>
-              <p>And report to whoever you named.</p>
+              <p>And report to whoever you named<span>, in uniform</span>.</p>
             </li>
           </ol>
         </div>

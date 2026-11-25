@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-25T07:24:23.668Z",
+  "ran_at": "2026-11-25T11:24:46.578Z",
   "checks": [
     {
       "name": "[desktop] primary call to action visible on a service page",
@@ -39,12 +39,12 @@
     {
       "name": "[desktop] valid request lands on the thank-you page with a reference",
       "ok": true,
-      "detail": "AV-20261125-M9H3X"
+      "detail": "AV-20261125-PHM38"
     },
     {
       "name": "[desktop] request emailed to the bookings inbox",
       "ok": true,
-      "detail": "URGENT Staff request: Oak House Care Home (AV-20261125-M9H3X)"
+      "detail": "URGENT Staff request: Oak House Care Home (AV-20261125-PHM38)"
     },
     {
       "name": "[desktop] bookings email has Reply-To set to the visitor",
@@ -119,12 +119,12 @@
     {
       "name": "[mobile] valid request lands on the thank-you page with a reference",
       "ok": true,
-      "detail": "AV-20261125-6ANXT"
+      "detail": "AV-20261125-4ZWUH"
     },
     {
       "name": "[mobile] request emailed to the bookings inbox",
       "ok": true,
-      "detail": "URGENT Staff request: Oak House Care Home (AV-20261125-6ANXT)"
+      "detail": "URGENT Staff request: Oak House Care Home (AV-20261125-4ZWUH)"
     },
     {
       "name": "[mobile] bookings email has Reply-To set to the visitor",
@@ -244,7 +244,7 @@
     {
       "name": "no broken internal links or assets",
       "ok": true,
-      "detail": "36 checked; broken: "
+      "detail": "37 checked; broken: "
     },
     {
       "name": "[consent] banner shown when analytics is configured",
@@ -284,7 +284,7 @@
     {
       "name": "[performance] home: LCP under 2.5s on slow mobile",
       "ok": true,
-      "detail": "LCP 792ms, CLS 0, 118 KB, 8 requests"
+      "detail": "LCP 792ms, CLS 0, 120 KB, 8 requests"
     },
     {
       "name": "[performance] home: layout shift under 0.1",
@@ -304,7 +304,7 @@
     {
       "name": "[performance] care-homes: LCP under 2.5s on slow mobile",
       "ok": true,
-      "detail": "LCP 768ms, CLS 0, 109 KB, 8 requests"
+      "detail": "LCP 772ms, CLS 0, 109 KB, 8 requests"
     },
     {
       "name": "[performance] care-homes: layout shift under 0.1",
@@ -315,20 +315,21 @@
   "axe": {},
   "links": {
     "pages": 30,
-    "checked": 36,
+    "checked": 37,
     "carried_from_live_server": [
       "/favicon.ico 404",
       "/images/logo.png 404",
       "/files/Modern-Slavery-Aviteus%20Healthcare%20LTD.pdf 404",
       "/files/PPN-0621-Carbon-Reduction-Plan-Aviteus.pdf 404",
-      "/files/TIMESHEET_&_Assesment_Aviteus_Healthcare.pdf 404"
+      "/files/TIMESHEET_&_Assesment_Aviteus_Healthcare.pdf 404",
+      "/files/cyber-essentials-certificate.pdf 404"
     ]
   },
   "performance": {
     "home": {
-      "kb_transferred": 118,
+      "kb_transferred": 120,
       "requests": 8,
-      "load_ms": 1024,
+      "load_ms": 1074,
       "lcp_ms": 792,
       "cls": 0,
       "profile": "mobile, 4x CPU slowdown, 1.6 Mbps, 150 ms latency"
@@ -336,7 +337,7 @@
     "request-staff": {
       "kb_transferred": 112,
       "requests": 8,
-      "load_ms": 1075,
+      "load_ms": 1067,
       "lcp_ms": 784,
       "cls": 0,
       "profile": "mobile, 4x CPU slowdown, 1.6 Mbps, 150 ms latency"
@@ -344,14 +345,14 @@
     "care-homes": {
       "kb_transferred": 109,
       "requests": 8,
-      "load_ms": 1001,
-      "lcp_ms": 768,
+      "load_ms": 1060,
+      "lcp_ms": 772,
       "cls": 0,
       "profile": "mobile, 4x CPU slowdown, 1.6 Mbps, 150 ms latency"
     }
   },
   "notes": [
-    "Files expected from the live server (not in this repo): /favicon.ico, /images/logo.png, /files/Modern-Slavery-Aviteus%20Healthcare%20LTD.pdf, /files/PPN-0621-Carbon-Reduction-Plan-Aviteus.pdf, /files/TIMESHEET_&_Assesment_Aviteus_Healthcare.pdf"
+    "Files expected from the live server (not in this repo): /favicon.ico, /images/logo.png, /files/Modern-Slavery-Aviteus%20Healthcare%20LTD.pdf, /files/PPN-0621-Carbon-Reduction-Plan-Aviteus.pdf, /files/TIMESHEET_&_Assesment_Aviteus_Healthcare.pdf, /files/cyber-essentials-certificate.pdf"
   ],
   "summary": {
     "passed": 62,

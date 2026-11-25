@@ -6,7 +6,7 @@ import Seo from "@/components/Seo";
 export default function HealthcareAssistant() {
   return (
     <>
-      <Seo title="Healthcare Assistant Jobs | Agency HCA Work | Aviteus" description="Temporary agency healthcare assistant work in care homes, nursing homes and hospitals. Choose your shifts and work near home. Register free in five minutes." path="/jobs/healthcare-assistant/" jsonLd={[{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's the difference between an HCA and a support worker?", "acceptedAnswer": {"@type": "Answer", "text": "HCAs usually work in care homes and hospitals, with more personal care. Support workers often help people living in their own homes, with more focus on everyday life. Plenty of people do both. See support worker roles."}}, {"@type": "Question", "name": "Do I need a qualification?", "acceptedAnswer": {"@type": "Answer", "text": "You don't need a degree. Services look for care experience and current mandatory training. A Care Certificate or a level 2 or 3 care qualification helps."}}, {"@type": "Question", "name": "Is visa sponsorship available?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the current Home Office rules for the role and salary. Ask us before you apply, and never pay anyone who offers you a sponsored care job."}}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aviteushealthcare.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Roles we recruit", "item": "https://aviteushealthcare.co.uk/jobs/"}, {"@type": "ListItem", "position": 3, "name": "Healthcare assistant", "item": "https://aviteushealthcare.co.uk/jobs/healthcare-assistant/"}]}]} />
+      <Seo title="Healthcare Assistant Jobs | Agency HCA Work | Aviteus" description="Temporary agency healthcare assistant work in care homes, nursing homes and hospitals. Choose your shifts and work near home. Register free in five minutes." path="/jobs/healthcare-assistant/" jsonLd={[{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's the difference between an HCA and a support worker?", "acceptedAnswer": {"@type": "Answer", "text": "HCAs usually work in care homes and hospitals, with more personal care. Support workers often help people living in their own homes, with more focus on everyday life. Plenty of people do both. See support worker roles."}}, {"@type": "Question", "name": "Do I need a qualification?", "acceptedAnswer": {"@type": "Answer", "text": "You don't need a degree. Services look for care experience and current mandatory training. A Care Certificate or a level 2 or 3 care qualification helps."}}, {"@type": "Question", "name": "Is visa sponsorship available?", "acceptedAnswer": {"@type": "Answer", "text": "No. We don't hold a sponsor licence, so you need the right to work in the UK before you apply. Never pay anyone who offers you a sponsored care job."}}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aviteushealthcare.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Roles we recruit", "item": "https://aviteushealthcare.co.uk/jobs/"}, {"@type": "ListItem", "position": 3, "name": "Healthcare assistant", "item": "https://aviteushealthcare.co.uk/jobs/healthcare-assistant/"}]}]} />
       <section className="page-head">
         <div className="container page-head__grid">
           <div>
@@ -32,6 +32,8 @@ export default function HealthcareAssistant() {
             <dd>Days, nights, long days, weekends</dd>
             <dt>Pay</dt>
             <dd>Hourly, shown before you accept a shift</dd>
+            <dt>Paid</dt>
+            <dd>Weekly</dd>
           </dl>
         </div>
       </section>
@@ -63,6 +65,10 @@ export default function HealthcareAssistant() {
             <ul className="ticks">
               <li>You choose which shifts to take</li>
               <li>Shifts offered close to home</li>
+              <li>Weekly pay</li>
+              <li>Free mandatory training and BLS</li>
+              <li>Free uniform</li>
+              <li>Refer a friend bonus</li>
             </ul>
             <Link to="/candidates/register/" className="btn btn--primary btn--block">Register now</Link>
           </div>
@@ -87,7 +93,7 @@ export default function HealthcareAssistant() {
             <details>
               <summary>Is visa sponsorship available?</summary>
               <div>
-                <p>It depends on the current Home Office rules for the role and salary. Ask us before you apply, and never pay anyone who offers you a sponsored care job.</p>
+                <p>No. We don't hold a sponsor licence, so you need the right to work in the UK before you apply. Never pay anyone who offers you a sponsored care job.</p>
               </div>
             </details>
           </div>

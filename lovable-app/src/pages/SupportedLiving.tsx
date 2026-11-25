@@ -63,6 +63,14 @@ export default function SupportedLiving() {
           </div>
         </div>
       </section>
+      <section className="section">
+        <div className="container narrow">
+          <figure className="quote">
+            <blockquote>Your staff have been great, so much so that some have been offered a permanent role with us. We would recommend your services to others.</blockquote>
+            <figcaption><strong>Steven Moocarme</strong>, Royal Mencap</figcaption>
+          </figure>
+        </div>
+      </section>
       <section className="section section--bg">
         <div className="container narrow">
           <h2>Supported living questions</h2>

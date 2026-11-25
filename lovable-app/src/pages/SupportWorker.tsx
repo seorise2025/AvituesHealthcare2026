@@ -65,6 +65,8 @@ export default function SupportWorker() {
               <li>You choose which shifts to take</li>
               <li>Shifts offered close to home</li>
               <li>We tell you if a shift is lone working before you accept</li>
+              <li>Weekly pay</li>
+              <li>Free mandatory training</li>
             </ul>
             <Link to="/candidates/register/" className="btn btn--primary btn--block">Register now</Link>
           </div>

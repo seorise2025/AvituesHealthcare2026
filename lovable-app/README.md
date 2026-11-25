@@ -93,6 +93,7 @@ These must be done before the domain points here:
 
 - [ ] Put the real logo at `public/images/logo.png`. Until then, the text name shows.
 - [ ] Copy the three PDFs from the current server into `public/files/` with the same names: the modern slavery statement, the carbon reduction plan, and the timesheet.
+- [ ] Add the **renewed** Cyber Essentials certificate as `public/files/cyber-essentials-certificate.pdf` (not the expired 2025 one).
 - [ ] Add `public/favicon.ico`.
 - [ ] Set up the form backend (above). Send one test enquiry per form and confirm each one arrives.
 - [ ] Fill in the `[TBC]` items in `src/pages/PrivacyNotice.tsx`.
@@ -102,7 +103,7 @@ These must be done before the domain points here:
 
 ## Claims held back
 
-Frameworks, client names, testimonials, APSCo, Cyber Essentials and similar claims are **not** in this version, because no evidence has been supplied. The full list and the wording for each is in `../docs/04-claims-register.md`. Send proof and they go back in.
+Frameworks, client names, testimonials, Cyber Essentials and the candidate benefits were approved by the director on 25 November 2026 and are now on the site. Still held back: the vetting table, NHS supply, APSCo and a few others. The full list and the wording for each is in `../docs/04-claims-register.md`. Send proof and they go back in.
 
 ## SEO note
 

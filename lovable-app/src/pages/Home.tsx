@@ -19,6 +19,7 @@ export default function Home() {
             <ul className="hero__facts">
               <li>Set up in 2021</li>
               <li>Registered with the ICO (ZB303299)</li>
+              <li>HealthTrust Europe and NHS Wales frameworks</li>
               <li>England, Scotland, Wales and Northern Ireland</li>
             </ul>
           </div>
@@ -124,6 +125,39 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="section">
+        <div className="container">
+          <h2>What clients have said</h2>
+          <ul className="clients">
+            <li>Accord</li>
+            <li>Bupa</li>
+            <li>Four Seasons Health Care</li>
+            <li>HC-One</li>
+            <li>Lifeways</li>
+            <li>Making Space</li>
+            <li>Minster Care Group</li>
+            <li>Neuven</li>
+            <li>Riverside</li>
+            <li>Royal Mencap</li>
+            <li>Sanctuary</li>
+            <li>Turning Point</li>
+          </ul>
+          <div className="cols cols-3">
+            <figure className="quote">
+              <blockquote>Their commitment and dedication in filling our Support Worker vacancies is second to none.</blockquote>
+              <figcaption><strong>Jonathon James</strong>, Sanctuary Housing Association</figcaption>
+            </figure>
+            <figure className="quote">
+              <blockquote>The healthcare workers provided by your agency are very responsible and truly liked by our residents and staff members.</blockquote>
+              <figcaption><strong>Charles Musendo</strong>, Turning Point</figcaption>
+            </figure>
+            <figure className="quote">
+              <blockquote>Your staff have been great, so much so that some have been offered a permanent role with us.</blockquote>
+              <figcaption><strong>Steven Moocarme</strong>, Royal Mencap</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
       <section className="section section--bg">
         <div className="container split">
           <div>
@@ -136,6 +170,7 @@ export default function Home() {
             <ul className="docs">
               <li><a href="/files/Modern-Slavery-Aviteus%20Healthcare%20LTD.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6z" /><path d="M14 3v6h6M8 13h8M8 17h5" /></svg>Modern slavery statement{" "}<span>PDF</span></a></li>
               <li><a href="/files/PPN-0621-Carbon-Reduction-Plan-Aviteus.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6z" /><path d="M14 3v6h6M8 13h8M8 17h5" /></svg>Carbon reduction plan{" "}<span>PDF</span></a></li>
+              <li><a href="/files/cyber-essentials-certificate.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6z" /><path d="M14 3v6h6M8 13h8M8 17h5" /></svg>Cyber Essentials certificate{" "}<span>PDF</span></a></li>
             </ul>
           </div>
         </div>
@@ -148,6 +183,8 @@ export default function Home() {
             <ul className="ticks">
               <li>Healthcare assistant, support worker, senior carer and nurse roles</li>
               <li>Shifts offered close to where you live</li>
+              <li>Paid weekly</li>
+              <li>Mandatory training and Basic Life Support at no cost to you</li>
             </ul>
             <div className="btn-row">
               <Link to="/candidates/register/" className="btn btn--primary">Register with us</Link>
@@ -159,6 +196,10 @@ export default function Home() {
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l10 18H2L12 3z" /><path d="M12 10v5M12 18h.01" /></svg>
               <p><strong>We will never ask you for money.</strong>{" "}UK law does not allow employment agencies to charge people for finding them work, and that includes visa sponsorship. If someone asks you to pay in our name, don't, and email{" "}<a href="mailto:info@aviteushealthcare.co.uk">info@aviteushealthcare.co.uk</a>.</p>
             </div>
+            <figure className="quote mt-6">
+              <blockquote>I came to the UK as an international student. Aviteus Healthcare accepted me, trained me, and has constantly supported me to become an experienced Healthcare Assistant.</blockquote>
+              <figcaption><strong>Ernest Kyei</strong>, healthcare assistant</figcaption>
+            </figure>
           </div>
         </div>
       </section>

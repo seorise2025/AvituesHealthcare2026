@@ -91,7 +91,28 @@ These affect the business now, whatever happens with the new site.
 | Removed "Doctors, therapists or other professions we don't supply" (urgent cover page) | The old site says the opposite. The new site should not state either until the client decides. |
 | Removed "Midwives, health visitors or doctors" from "Not something we do" (agency nurses page) | Same reason |
 
-## 6. Questions for the client
+## 6. Client answers (25 November 2026) and what changed
+
+| Question | Answer | Result on the new site |
+|---|---|---|
+| Doctors, therapists or social workers? | No | Kept off. "Not something we do" lines now say so plainly on the urgent cover and agency nurses pages. |
+| Designated body status for revalidation? | Yes | **Kept off, and needs a second look.** A designated body is for doctors connected to the organisation. That doesn't fit with "no doctors". Ask the client to explain before this goes anywhere. |
+| HealthTrust Europe and NHS Wales frameworks? | Yes | Approved. Shown on the home, hire staff and compliance pages. Award letters to be kept on file. |
+| Permanent and international recruitment, sponsor licence? | No | Kept off. The visa FAQs now say plainly that Aviteus holds no sponsor licence. |
+| Cyber Essentials renewed? | Yes | Approved. The link now points to `/files/cyber-essentials-certificate.pdf`. Upload the renewed certificate there. |
+| Clients and workers agreed in writing? | All previous ones | Approved. All 12 client names from the old site's logos are listed, plus 5 testimonials (3 clients, 2 workers). The old site's "community" logo is left out because its full name is unclear. |
+| Weekly pay, uniforms, training, referrals, DBS help? | Yes | Approved. Shown on the job pages and the find work page. |
+| Domiciliary care? | No | Kept off. |
+
+**The old site is now wrong in several places.** It still offers permanent recruitment, international recruitment, visa sponsorship support, domiciliary care and locum doctors, and it links the expired 2025 Cyber Essentials certificate. Correct it, or replace it with the new site soon.
+
+## 7. Questions still open
+
+1. How does designated body status fit with placing no doctors?
+2. Do you currently supply NHS trusts or health boards (needed for the NHS and hospitals page)?
+3. What is the "community" client logo on the old site?
+
+## 8. Original questions for the client
 
 1. Do you place **doctors, therapists (AHPs) or social workers** today? If yes, which roles and where?
 2. Is the **designated body status** for doctors' revalidation current? Who is the Responsible Officer now?

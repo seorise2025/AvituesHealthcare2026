@@ -16,7 +16,7 @@ export default function Compliance() {
             </ol>
           </nav>
           <h1>Registrations and policies</h1>
-          <p className="intro">You stay responsible for everyone who works in your service, so you should be able to see what checks were done. our company registrations and the policies we publish.</p>
+          <p className="intro">You stay responsible for everyone who works in your service, so you should be able to see what checks were done.{" "}<span>Below are our company registrations and the policies we publish.</span></p>
         </div>
       </section>
       <section className="section section--bg">
@@ -46,6 +46,14 @@ export default function Compliance() {
                     <th scope="row">ICO registration</th>
                     <td><a href="https://ico.org.uk/ESDWebPages/Entry/ZB303299" rel="noopener">ZB303299</a></td>
                   </tr>
+                  <tr>
+                    <th scope="row">Frameworks</th>
+                    <td>HealthTrust Europe, NHS Wales</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Cyber security</th>
+                    <td>Cyber Essentials certified</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -55,6 +63,7 @@ export default function Compliance() {
             <ul className="docs">
               <li><a href="/files/Modern-Slavery-Aviteus%20Healthcare%20LTD.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6z" /><path d="M14 3v6h6M8 13h8M8 17h5" /></svg>Modern slavery statement{" "}<span>PDF</span></a></li>
               <li><a href="/files/PPN-0621-Carbon-Reduction-Plan-Aviteus.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6z" /><path d="M14 3v6h6M8 13h8M8 17h5" /></svg>Carbon reduction plan, signed January 2025{" "}<span>PDF</span></a></li>
+              <li><a href="/files/cyber-essentials-certificate.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6z" /><path d="M14 3v6h6M8 13h8M8 17h5" /></svg>Cyber Essentials certificate{" "}<span>PDF</span></a></li>
             </ul>
             <p className="small muted mt-5">Our carbon reduction plan reports total emissions of 493 tonnes CO2e in 2022 and 348 tonnes in 2024, and commits us to net zero by 2045.</p>
           </div>

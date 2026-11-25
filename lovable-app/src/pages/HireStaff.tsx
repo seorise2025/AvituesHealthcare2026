@@ -44,6 +44,7 @@ export default function HireStaff() {
               <li><strong>How much notice you give.</strong>{" "}Same-day requests can cost more, and they are harder to fill.</li>
               <li><strong>How much you book.</strong>{" "}A run of shifts is easier to plan than scattered single ones.</li>
               <li><strong>Specialist skills.</strong>{" "}The more specific the requirement, the fewer people can do it.</li>
+              <li><strong>How you buy.</strong>{" "}NHS buyers booking through HealthTrust Europe or NHS Wales frameworks pay framework rates.</li>
             </ul>
           </div>
           <div className="panel panel--accent">

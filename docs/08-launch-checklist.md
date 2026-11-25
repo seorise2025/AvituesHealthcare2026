@@ -71,11 +71,10 @@ The site can launch without these. Each approval adds the matching content back.
 
 Highest value first:
 1. ~~`h24`~~ **approved** 25 November 2026 (director confirmation). ~~`coverage`~~ **approved** (UK-wide, director confirmation)
-2. `vetting`: restores the vetting table and check lists (12 places)
-3. `frameworks`, `nhs-supply`: framework proof and the NHS page
-4. Testimonials `t-*` and `clients`: the only social proof on the site
-5. `pay-weekly`, `training-free`, `uniform`, `referral`: candidate benefits
-6. `perm-process`: the permanent recruitment page
+2. ~~`frameworks`, `cyber`, `clients`, `t-*`, `pay-weekly`, `uniform`, `training-free`, `referral`, `dbs-help`~~ **approved** 25 November 2026 (director confirmation). Keep the award letters, the renewed Cyber Essentials certificate and the written consents on file.
+3. `vetting`: restores the vetting table and check lists (12 places)
+4. `nhs-supply`: the NHS and hospitals page. Being on a framework is not the same as supplying the NHS today, so this needs its own confirmation.
+5. ~~`perm-process`~~, ~~`sponsor`~~: **not offered** (director, 25 November 2026). Keep off the site.
 
 ## 5. Go-live steps (once section 3 is clear)
 

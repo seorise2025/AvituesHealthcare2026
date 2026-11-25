@@ -45,6 +45,11 @@ export default function FindWork() {
               <li>You choose which shifts to accept</li>
               <li>Shifts offered close to where you live</li>
               <li>A consultant you can ring with questions</li>
+              <li>Weekly pay for the hours on your signed timesheets</li>
+              <li>Mandatory training and Basic Life Support at no cost</li>
+              <li>A uniform before your first shift</li>
+              <li>Help with your DBS, PVG or AccessNI application</li>
+              <li>A bonus when someone you refer completes their qualifying hours</li>
             </ul>
           </div>
         </div>
@@ -75,6 +80,18 @@ export default function FindWork() {
             </li>
           </ol>
           <p className="mt-5"><Link to="/resources/agency-registration-documents/">The documents you'll need</Link>. Having them ready is the best way to speed things up.</p>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container cols cols-2">
+          <figure className="quote">
+            <blockquote>From day one, the company has been impactful to my life. I have been given opportunities to sharpen and diversify my skill set. At every step of the way, I have had the full support of my recruitment consultant.</blockquote>
+            <figcaption><strong>Peter Adeyanju</strong>, Aviteus worker</figcaption>
+          </figure>
+          <figure className="quote">
+            <blockquote>I came to the UK as an international student. Aviteus Healthcare accepted me, trained me, and has constantly supported me to become an experienced Healthcare Assistant.</blockquote>
+            <figcaption><strong>Ernest Kyei</strong>, healthcare assistant</figcaption>
+          </figure>
         </div>
       </section>
       <section className="section section--bg">
