@@ -41,6 +41,11 @@ function toResult(status: number, data: Record<string, unknown>): SubmitResult {
 export async function submitLead(type: LeadType, body: URLSearchParams): Promise<SubmitResult> {
   const env = import.meta.env;
   body.set("lead_type", type);
+  if (env.MODE === "clientpreview") {
+    // Preview copy: nothing is sent anywhere. Show the thank-you page only.
+    await new Promise((r) => setTimeout(r, 400));
+    return { kind: "ok", ref: "" };
+  }
   try {
     if (env.VITE_LEAD_ENDPOINT) {
       const r = await fetch(env.VITE_LEAD_ENDPOINT, {
