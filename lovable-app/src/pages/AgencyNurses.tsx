@@ -53,7 +53,6 @@ export default function AgencyNurses() {
           <div className="panel panel--bg">
             <h2 className="h3">Not something we do</h2>
             <ul className="crosses">
-              <li>Midwives, health visitors or doctors</li>
               <li>Nurses whose registration is lapsed, or restricted for the work you need</li>
               <li>Clinical work outside the nurse's competence or your own policies</li>
             </ul>
